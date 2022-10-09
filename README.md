@@ -56,3 +56,14 @@ git push origin my-new-branch
 #### The Repository does not accept any arbitrary interview questions, datastructures and algorithms.
 #### To contribute, first raise an issue and wait for a maintainer to assign it to you.
 #### Create a Folder and add your files in it and don't interfere with other folder.
+
+## Conclusion
+
+- Happy Contributing! 🎉 
+- May you have a great Hacktoberfest 2022! 🎉
+- If you have any questions, feel free to ask us. We will be happy to help you. 😊
+
+## References
+
+- [Hacktoberfest 2022](https://hacktoberfest.digitalocean.com)
+- [Hacktoberfest 2022 Participation Guidelines](https://hacktoberfest.com/participation)
