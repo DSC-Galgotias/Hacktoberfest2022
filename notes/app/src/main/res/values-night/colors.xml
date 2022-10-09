@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#070706</color>
+    <color name="primaryVariant">#070706</color>
+    <color name="onPrimary">#070706</color>
+    <color name="primaryDark">#070706</color>
+
+    <color name="secondary">#63C2D2</color>
+    <color name="secondaryVariant">#63C2D2</color>
+    <color name="onSecondary">#63C2D2</color>
+
+    <color name="black">#fff</color>
+
+    <color name="bright_grey">#959595</color>
+</resources>
