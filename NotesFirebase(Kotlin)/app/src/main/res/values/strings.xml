@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NotesFirebase</string>
+    <string name="termsAndCondition">I agree to the Terms and Conditions</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notes">Notes</string>
+    <string name="profile">Profile</string>
+</resources>
