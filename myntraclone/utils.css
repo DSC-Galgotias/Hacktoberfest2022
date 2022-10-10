@@ -1,0 +1,30 @@
+.flex{
+    display: flex;
+    
+}
+
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+ }
+
+.mx-2{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.column{
+    flex-direction: column-reverse;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+.fontcon{
+    font-size: smaller;
+    font-weight: 600;
+}
+.clothimage{
+    width: 194px;
+    height: 234px;
+}
