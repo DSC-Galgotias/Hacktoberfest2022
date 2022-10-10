@@ -18,11 +18,17 @@ class EditNotesFragment : Fragment() {
 
     private lateinit var binding: FragmentEditNotesBinding
 
+
+class EditNotesFragment : Fragment() {
+
+
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+
         binding = FragmentEditNotesBinding.inflate(inflater, container, false)
         val title = arguments?.getString("title")
         val note = arguments?.getString("note")
@@ -116,4 +122,9 @@ class EditNotesFragment : Fragment() {
             }
         }
     }
+
+        return inflater.inflate(R.layout.fragment_blank, container, false)
+
+    }
+
 }
