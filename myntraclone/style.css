@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Dosis:wght@300&family=IBM+Plex+Sans+Thai+Looped:wght@200&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@200&family=Nunito:wght@300&family=Roboto+Slab:wght@300&family=Roboto:wght@300&family=Ubuntu+Mono&display=swap');
+
+
+
+.headercontainer{
+    /* border: 2px solid black; */
+    /* max-width: 80vw; */
+    margin: auto;
+    height: 73px;
+    /* display: flex; */
+    box-shadow: 0px 0px 6px 0px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+
+/* @media (max-width: 267px){
+.headercontainer{
+    height: 122px;
+    
+}
+.navclass{
+    flex-direction: column;
+}
+.myntralogo{
+    width: 25px;
+}
+.ulli{
+    flex-direction: column;
+} */
+
+/* .homeimage{
+    padding-right: 100px;
+}
+
+} */
+
+
+.myntralogo{
+    width: 56px;
+    height: 29px;
+   
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 12px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px 1px;
+
+}
+
+.navclass{
+    padding: 28px 28px;
+    justify-content: space-between;
+}
+
+.right{
+    /* flex-direction: row-reverse; */
+    padding: 0px 10px;
+    justify-content: space-around;
+
+}
+.searchbar{
+    width: 330px;
+    height: 36px;
+    border: 1px solid rgb(231, 219, 219);
+    border-radius: 3px;
+    
+
+}
+
+.profileicon{
+    width: 19px;
+    height: 22px;
+}
+.wishlisticon{
+    width: 19px;
+    height: 22px;
+}
+.bagicon{
+    width: 19px;
+    height: 22px;
+}
+
+.bodysection{
+    height: 122vh;
+    background-color: rgb(248, 244, 240);
+    /* padding: 12px 50px; */
+
+    
+}
+
+.homeimage{
+    width: 90vw;
+    padding-left: 64px;
+    
+}
+.screenshort{
+    width: 100vw;
+    
+}
+.footersite{
+    width: 100vw;
+    height: 8vh;
+    text-align : center;
+    
+    
+}
