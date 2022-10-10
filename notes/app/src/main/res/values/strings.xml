@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Notes</string>
+
+    <string name="gsm_client_id">907492386886-8ognb2cqpamuot04mq5q28k9tab92e20.apps.googleusercontent.com</string>
+    <string name="clientSecret">Syq-hmrYCUICXMKrHydkCcPP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notes">Notes</string>
+    <string name="pull_down_to_get_started">Pull down to get started</string>
+    <string name="get_started_by_authenticating">Get started by authenticating</string>
+    <string name="confirm">Confirm</string>
+    <string name="logout_alert_message">Do you want to logout?</string>
+</resources>

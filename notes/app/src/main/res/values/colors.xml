@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#E1E1E1</color>
+    <color name="primaryVariant">#E1E1E1</color>
+    <color name="onPrimary">#E1E1E1</color>
+    <color name="primaryDark">#E1E1E1</color>
+
+    <color name="secondary">#63C2D2</color>
+    <color name="secondaryVariant">#63C2D2</color>
+    <color name="onSecondary">#63C2D2</color>
+
+    <color name="black">#000</color>
+
+    <color name="always_black">#000</color>
+    <color name="always_white">#fff</color>
+
+    <color name="button_tint">#161616</color>
+
+    <color name="bright_grey">#373737</color>
+
+    <color name="orange">#fe9a37</color>
+    <color name="green">#cbdb57</color>
+    <color name="purple">#9585ba</color>
+    <color name="grey">#5c4f45</color>
+    <color name="red">#f96a4b</color>
+    <color name="mustard">#dea44d</color>
+    <color name="brown">#9e5c32</color>
+
+</resources>
