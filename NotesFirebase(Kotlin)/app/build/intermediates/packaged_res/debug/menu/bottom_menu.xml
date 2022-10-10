@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@id/noteFragment"
+        android:icon="@drawable/writing"
+        android:title="@string/notes" />
+
+    <item
+        android:id="@id/profileFragment"
+        android:icon="@drawable/profile"
+        android:title="@string/profile" />
+
+</menu>

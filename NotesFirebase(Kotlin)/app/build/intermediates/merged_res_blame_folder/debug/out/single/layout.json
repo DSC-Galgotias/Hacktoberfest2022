@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.example.notesfirebase.app-mergeDebugResources-52:/layout/fragment_note.xml",
+        "source": "com.example.notesfirebase.app-main-55:/layout/fragment_note.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-mergeDebugResources-52:/layout/activity_main.xml",
+        "source": "com.example.notesfirebase.app-main-55:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-mergeDebugResources-52:/layout/activity_splash_screen.xml",
+        "source": "com.example.notesfirebase.app-main-55:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-mergeDebugResources-52:/layout/activity_register.xml",
+        "source": "com.example.notesfirebase.app-main-55:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-mergeDebugResources-52:/layout/fragment_profile.xml",
+        "source": "com.example.notesfirebase.app-main-55:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-mergeDebugResources-52:/layout/dialog_delete.xml",
+        "source": "com.example.notesfirebase.app-main-55:/layout/dialog_delete.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-mergeDebugResources-52:/layout/item_notes.xml",
+        "source": "com.example.notesfirebase.app-main-55:/layout/item_notes.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-mergeDebugResources-52:/layout/fragment_edit_notes.xml",
+        "source": "com.example.notesfirebase.app-main-55:/layout/fragment_edit_notes.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-mergeDebugResources-52:/layout/fragment_create_notes.xml",
+        "source": "com.example.notesfirebase.app-main-55:/layout/fragment_create_notes.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-mergeDebugResources-52:/layout/loading_layout.xml",
+        "source": "com.example.notesfirebase.app-main-55:/layout/loading_layout.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-mergeDebugResources-52:/layout/activity_login.xml",
+        "source": "com.example.notesfirebase.app-main-55:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-mergeDebugResources-52:/layout/dialog_logout.xml",
+        "source": "com.example.notesfirebase.app-main-55:/layout/dialog_logout.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-mergeDebugResources-52:/layout/fragment_blank.xml",
+        "source": "com.example.notesfirebase.app-main-55:/layout/fragment_blank.xml"
+    }
+]

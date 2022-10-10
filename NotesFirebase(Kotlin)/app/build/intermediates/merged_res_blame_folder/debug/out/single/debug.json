@@ -1,0 +1,210 @@
+[
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.notesfirebase.app-main-55:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_ic_baseline_done_24.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/ic_baseline_done_24.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_ic_baseline_check_24.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/ic_baseline_check_24.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.notesfirebase.app-main-55:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.notesfirebase.app-main-55:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable-v24_programmer.png.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable-v24/programmer.png"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_ic_undraw_notes.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/ic_undraw_notes.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable-v24_no_btn.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable-v24/no_btn.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.notesfirebase.app-main-55:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_ic_baseline_delete_45.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/ic_baseline_delete_45.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/layout_fragment_note.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/layout/fragment_note.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.notesfirebase.app-main-55:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable-v24_profile.png.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable-v24/profile.png"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/layout_activity_splash_screen.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/layout_dialog_delete.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/layout/dialog_delete.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.notesfirebase.app-pngs-48:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.notesfirebase.app-main-55:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/navigation_app_nav.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/navigation/app_nav.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/layout_dialog_logout.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/layout/dialog_logout.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_delete_sheet.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/delete_sheet.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.notesfirebase.app-main-55:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable-v24_writing.png.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable-v24/writing.png"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/layout_activity_main.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/layout_activity_login.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_phone.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/phone.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_ic_undraw_add_notes.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/ic_undraw_add_notes.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/layout_fragment_create_notes.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/layout/fragment_create_notes.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_ic_baseline_delete_24.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/ic_baseline_delete_24.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_person.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/person.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/layout_fragment_profile.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/font_arizonia.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/font/arizonia.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_edittext_shape.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/edittext_shape.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_icon.png.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/icon.png"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_ic_first.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/ic_first.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/xml_backup_rules.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_ic_baseline_add_24.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_yes_btn.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/yes_btn.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.notesfirebase.app-main-55:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.notesfirebase.app-main-55:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/menu_bottom_menu.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/menu/bottom_menu.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.notesfirebase.app-main-55:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/layout_activity_register.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/layout_fragment_edit_notes.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/layout/fragment_edit_notes.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/layout_item_notes.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/layout/item_notes.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/layout_fragment_blank.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/layout/fragment_blank.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_email.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/email.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/layout_loading_layout.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/layout/loading_layout.xml"
+    },
+    {
+        "merged": "com.example.notesfirebase.app-merged_res-53:/drawable_btn_bg.xml.flat",
+        "source": "com.example.notesfirebase.app-main-55:/drawable/btn_bg.xml"
+    }
+]

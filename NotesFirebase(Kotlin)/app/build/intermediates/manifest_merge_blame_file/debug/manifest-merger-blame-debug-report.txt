@@ -1,0 +1,339 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.notesfirebase"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\9e42e79b7ab27907cf2b2b438512b9d7\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\9e42e79b7ab27907cf2b2b438512b9d7\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\9e42e79b7ab27907cf2b2b438512b9d7\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\9e42e79b7ab27907cf2b2b438512b9d7\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\2a8c6b29fa8293b298ad4bd9c6f24e79\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\2a8c6b29fa8293b298ad4bd9c6f24e79\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:26:22-107
+16
+17    <application
+17-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:8:5-40:19
+18        android:allowBackup="true"
+18-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:9:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.8.0] C:\Users\akuka\.gradle\caches\transforms-3\905a98e8af93c3290e2842877c5719fb\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:10:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:11:9-54
+23        android:icon="@drawable/icon"
+23-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:12:9-38
+24        android:label="@string/app_name"
+24-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:13:9-41
+25        android:roundIcon="@drawable/icon"
+25-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:14:9-43
+26        android:supportsRtl="true"
+26-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:15:9-35
+27        android:theme="@style/Theme.NotesFirebase" >
+27-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:16:9-51
+28        <activity
+28-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:18:9-20:40
+29            android:name="com.example.notesfirebase.auth.RegisterActivity"
+29-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:19:13-50
+30            android:exported="false" />
+30-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:20:13-37
+31        <activity
+31-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:21:9-29:20
+32            android:name="com.example.notesfirebase.activity.SplashScreenActivity"
+32-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:22:13-58
+33            android:exported="true" >
+33-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:23:13-36
+34            <intent-filter>
+34-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:24:13-28:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:25:17-69
+35-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:25:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:27:17-77
+37-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:27:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:30:9-32:40
+41            android:name="com.example.notesfirebase.auth.LoginActivity"
+41-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:31:13-47
+42            android:exported="false" />
+42-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:32:13-37
+43        <activity
+43-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:33:9-35:40
+44            android:name="com.example.notesfirebase.MainActivity"
+44-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:34:13-41
+45            android:exported="false" />
+45-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:35:13-37
+46
+47        <meta-data
+47-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:37:9-39:57
+48            android:name="preloaded_fonts"
+48-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:38:13-43
+49            android:resource="@array/preloaded_fonts" />
+49-->C:\Users\akuka\OneDrive\Desktop\hacktoberfest\HactoberFest-2022\Android\NotesFirebase\app\src\main\AndroidManifest.xml:39:13-54
+50
+51        <uses-library
+51-->[androidx.window:window:1.0.0] C:\Users\akuka\.gradle\caches\transforms-3\abd194f49c03bdc198fa0302865a4e25\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+52            android:name="androidx.window.extensions"
+52-->[androidx.window:window:1.0.0] C:\Users\akuka\.gradle\caches\transforms-3\abd194f49c03bdc198fa0302865a4e25\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+53            android:required="false" />
+53-->[androidx.window:window:1.0.0] C:\Users\akuka\.gradle\caches\transforms-3\abd194f49c03bdc198fa0302865a4e25\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+54        <uses-library
+54-->[androidx.window:window:1.0.0] C:\Users\akuka\.gradle\caches\transforms-3\abd194f49c03bdc198fa0302865a4e25\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+55            android:name="androidx.window.sidecar"
+55-->[androidx.window:window:1.0.0] C:\Users\akuka\.gradle\caches\transforms-3\abd194f49c03bdc198fa0302865a4e25\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+56            android:required="false" />
+56-->[androidx.window:window:1.0.0] C:\Users\akuka\.gradle\caches\transforms-3\abd194f49c03bdc198fa0302865a4e25\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+57
+58        <service
+58-->[com.google.firebase:firebase-auth-ktx:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\4b72ed3c744bbca7f13b3966221a3913\transformed\firebase-auth-ktx-21.0.7\AndroidManifest.xml:8:9-14:19
+59            android:name="com.google.firebase.components.ComponentDiscoveryService"
+59-->[com.google.firebase:firebase-auth-ktx:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\4b72ed3c744bbca7f13b3966221a3913\transformed\firebase-auth-ktx-21.0.7\AndroidManifest.xml:9:13-84
+60            android:directBootAware="true"
+60-->[com.google.firebase:firebase-common:20.1.1] C:\Users\akuka\.gradle\caches\transforms-3\749182573112b2d39d78de3faa2af395\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+61            android:exported="false" >
+61-->[com.google.firebase:firebase-auth-ktx:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\4b72ed3c744bbca7f13b3966221a3913\transformed\firebase-auth-ktx-21.0.7\AndroidManifest.xml:10:13-37
+62            <meta-data
+62-->[com.google.firebase:firebase-auth-ktx:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\4b72ed3c744bbca7f13b3966221a3913\transformed\firebase-auth-ktx-21.0.7\AndroidManifest.xml:11:13-13:85
+63                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+63-->[com.google.firebase:firebase-auth-ktx:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\4b72ed3c744bbca7f13b3966221a3913\transformed\firebase-auth-ktx-21.0.7\AndroidManifest.xml:12:17-116
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-auth-ktx:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\4b72ed3c744bbca7f13b3966221a3913\transformed\firebase-auth-ktx-21.0.7\AndroidManifest.xml:13:17-82
+65            <meta-data
+65-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:67:13-69:85
+66                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+66-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:68:17-109
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:69:17-82
+68            <meta-data
+68-->[com.google.firebase:firebase-firestore-ktx:24.2.2] C:\Users\akuka\.gradle\caches\transforms-3\cc7a081a7b56fe88d9d13133645947e4\transformed\firebase-firestore-ktx-24.2.2\AndroidManifest.xml:15:13-17:85
+69                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+69-->[com.google.firebase:firebase-firestore-ktx:24.2.2] C:\Users\akuka\.gradle\caches\transforms-3\cc7a081a7b56fe88d9d13133645947e4\transformed\firebase-firestore-ktx-24.2.2\AndroidManifest.xml:16:17-126
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-firestore-ktx:24.2.2] C:\Users\akuka\.gradle\caches\transforms-3\cc7a081a7b56fe88d9d13133645947e4\transformed\firebase-firestore-ktx-24.2.2\AndroidManifest.xml:17:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-firestore:24.2.2] C:\Users\akuka\.gradle\caches\transforms-3\21ed182f4f237c09421ba74de2f132df\transformed\firebase-firestore-24.2.2\AndroidManifest.xml:20:13-22:85
+72                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+72-->[com.google.firebase:firebase-firestore:24.2.2] C:\Users\akuka\.gradle\caches\transforms-3\21ed182f4f237c09421ba74de2f132df\transformed\firebase-firestore-24.2.2\AndroidManifest.xml:21:17-111
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-firestore:24.2.2] C:\Users\akuka\.gradle\caches\transforms-3\21ed182f4f237c09421ba74de2f132df\transformed\firebase-firestore-24.2.2\AndroidManifest.xml:22:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-storage-ktx:20.0.1] C:\Users\akuka\.gradle\caches\transforms-3\07dc737173b7ee687b04e2bbea76c7f7\transformed\firebase-storage-ktx-20.0.1\AndroidManifest.xml:15:13-17:85
+75                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
+75-->[com.google.firebase:firebase-storage-ktx:20.0.1] C:\Users\akuka\.gradle\caches\transforms-3\07dc737173b7ee687b04e2bbea76c7f7\transformed\firebase-storage-ktx-20.0.1\AndroidManifest.xml:16:17-122
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-storage-ktx:20.0.1] C:\Users\akuka\.gradle\caches\transforms-3\07dc737173b7ee687b04e2bbea76c7f7\transformed\firebase-storage-ktx-20.0.1\AndroidManifest.xml:17:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\akuka\.gradle\caches\transforms-3\fd590bb3e81c01d186af0ca253bb099f\transformed\firebase-storage-20.0.1\AndroidManifest.xml:33:13-35:85
+78                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+78-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\akuka\.gradle\caches\transforms-3\fd590bb3e81c01d186af0ca253bb099f\transformed\firebase-storage-20.0.1\AndroidManifest.xml:34:17-107
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-storage:20.0.1] C:\Users\akuka\.gradle\caches\transforms-3\fd590bb3e81c01d186af0ca253bb099f\transformed\firebase-storage-20.0.1\AndroidManifest.xml:35:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-database-ktx:20.0.5] C:\Users\akuka\.gradle\caches\transforms-3\0daff606271677e2eab6f0fc5a24e63a\transformed\firebase-database-ktx-20.0.5\AndroidManifest.xml:15:13-17:85
+81                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+81-->[com.google.firebase:firebase-database-ktx:20.0.5] C:\Users\akuka\.gradle\caches\transforms-3\0daff606271677e2eab6f0fc5a24e63a\transformed\firebase-database-ktx-20.0.5\AndroidManifest.xml:16:17-124
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-database-ktx:20.0.5] C:\Users\akuka\.gradle\caches\transforms-3\0daff606271677e2eab6f0fc5a24e63a\transformed\firebase-database-ktx-20.0.5\AndroidManifest.xml:17:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-database:20.0.5] C:\Users\akuka\.gradle\caches\transforms-3\4e75ef5709b250e75c0fc7f11bf3329b\transformed\firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+84                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+84-->[com.google.firebase:firebase-database:20.0.5] C:\Users\akuka\.gradle\caches\transforms-3\4e75ef5709b250e75c0fc7f11bf3329b\transformed\firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-database:20.0.5] C:\Users\akuka\.gradle\caches\transforms-3\4e75ef5709b250e75c0fc7f11bf3329b\transformed\firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-analytics-ktx:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\a25afddd907e75dbe48d330af5d0b715\transformed\firebase-analytics-ktx-21.1.0\AndroidManifest.xml:11:13-13:85
+87                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+87-->[com.google.firebase:firebase-analytics-ktx:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\a25afddd907e75dbe48d330af5d0b715\transformed\firebase-analytics-ktx-21.1.0\AndroidManifest.xml:12:17-126
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-analytics-ktx:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\a25afddd907e75dbe48d330af5d0b715\transformed\firebase-analytics-ktx-21.1.0\AndroidManifest.xml:13:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-common-ktx:20.1.1] C:\Users\akuka\.gradle\caches\transforms-3\9adf7448f9f6d4d362663f9881238659\transformed\firebase-common-ktx-20.1.1\AndroidManifest.xml:15:13-17:85
+90                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+90-->[com.google.firebase:firebase-common-ktx:20.1.1] C:\Users\akuka\.gradle\caches\transforms-3\9adf7448f9f6d4d362663f9881238659\transformed\firebase-common-ktx-20.1.1\AndroidManifest.xml:16:17-113
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-common-ktx:20.1.1] C:\Users\akuka\.gradle\caches\transforms-3\9adf7448f9f6d4d362663f9881238659\transformed\firebase-common-ktx-20.1.1\AndroidManifest.xml:17:17-82
+92            <meta-data
+92-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\9e42e79b7ab27907cf2b2b438512b9d7\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:31:13-33:85
+93                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+93-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\9e42e79b7ab27907cf2b2b438512b9d7\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:32:17-139
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\9e42e79b7ab27907cf2b2b438512b9d7\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:33:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\akuka\.gradle\caches\transforms-3\00e949a39dabb52342bd8621ae0ad188\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+96                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+96-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\akuka\.gradle\caches\transforms-3\00e949a39dabb52342bd8621ae0ad188\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\akuka\.gradle\caches\transforms-3\00e949a39dabb52342bd8621ae0ad188\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+98        </service>
+99
+100        <activity
+100-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:27:9-44:20
+101            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+101-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:28:13-80
+102            android:excludeFromRecents="true"
+102-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:29:13-46
+103            android:exported="true"
+103-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:30:13-36
+104            android:launchMode="singleTask"
+104-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:31:13-44
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+105-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:32:13-72
+106            <intent-filter>
+106-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:33:13-43:29
+107                <action android:name="android.intent.action.VIEW" />
+107-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:34:17-69
+107-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:34:25-66
+108
+109                <category android:name="android.intent.category.DEFAULT" />
+109-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:36:17-76
+109-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:36:27-73
+110                <category android:name="android.intent.category.BROWSABLE" />
+110-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:37:17-78
+110-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:37:27-75
+111
+112                <data
+112-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:39:17-42:51
+113                    android:host="firebase.auth"
+113-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:40:21-49
+114                    android:path="/"
+114-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:41:21-37
+115                    android:scheme="genericidp" />
+115-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:42:21-48
+116            </intent-filter>
+117        </activity>
+118        <activity
+118-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:45:9-62:20
+119            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+119-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:46:13-79
+120            android:excludeFromRecents="true"
+120-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:47:13-46
+121            android:exported="true"
+121-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:48:13-36
+122            android:launchMode="singleTask"
+122-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:49:13-44
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+123-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:50:13-72
+124            <intent-filter>
+124-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:51:13-61:29
+125                <action android:name="android.intent.action.VIEW" />
+125-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:34:17-69
+125-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:34:25-66
+126
+127                <category android:name="android.intent.category.DEFAULT" />
+127-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:36:17-76
+127-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:36:27-73
+128                <category android:name="android.intent.category.BROWSABLE" />
+128-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:37:17-78
+128-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:37:27-75
+129
+130                <data
+130-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:39:17-42:51
+131                    android:host="firebase.auth"
+131-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:40:21-49
+132                    android:path="/"
+132-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:41:21-37
+133                    android:scheme="recaptcha" />
+133-->[com.google.firebase:firebase-auth:21.0.7] C:\Users\akuka\.gradle\caches\transforms-3\7d3736275ff714dd36e501dff2219e1b\transformed\firebase-auth-21.0.7\AndroidManifest.xml:42:21-48
+134            </intent-filter>
+135        </activity>
+136        <activity
+136-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\akuka\.gradle\caches\transforms-3\799878b45293482a95d8e8cc3ca2fa07\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+137            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+137-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\akuka\.gradle\caches\transforms-3\799878b45293482a95d8e8cc3ca2fa07\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+138            android:exported="false"
+138-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\akuka\.gradle\caches\transforms-3\799878b45293482a95d8e8cc3ca2fa07\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+139            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+139-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\akuka\.gradle\caches\transforms-3\799878b45293482a95d8e8cc3ca2fa07\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+140
+141        <provider
+141-->[com.google.firebase:firebase-common:20.1.1] C:\Users\akuka\.gradle\caches\transforms-3\749182573112b2d39d78de3faa2af395\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+142            android:name="com.google.firebase.provider.FirebaseInitProvider"
+142-->[com.google.firebase:firebase-common:20.1.1] C:\Users\akuka\.gradle\caches\transforms-3\749182573112b2d39d78de3faa2af395\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+143            android:authorities="com.example.notesfirebase.firebaseinitprovider"
+143-->[com.google.firebase:firebase-common:20.1.1] C:\Users\akuka\.gradle\caches\transforms-3\749182573112b2d39d78de3faa2af395\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+144            android:directBootAware="true"
+144-->[com.google.firebase:firebase-common:20.1.1] C:\Users\akuka\.gradle\caches\transforms-3\749182573112b2d39d78de3faa2af395\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+145            android:exported="false"
+145-->[com.google.firebase:firebase-common:20.1.1] C:\Users\akuka\.gradle\caches\transforms-3\749182573112b2d39d78de3faa2af395\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+146            android:initOrder="100" />
+146-->[com.google.firebase:firebase-common:20.1.1] C:\Users\akuka\.gradle\caches\transforms-3\749182573112b2d39d78de3faa2af395\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+147
+148        <receiver
+148-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\2a8c6b29fa8293b298ad4bd9c6f24e79\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:29:9-33:20
+149            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+149-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\2a8c6b29fa8293b298ad4bd9c6f24e79\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:30:13-85
+150            android:enabled="true"
+150-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\2a8c6b29fa8293b298ad4bd9c6f24e79\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:31:13-35
+151            android:exported="false" >
+151-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\2a8c6b29fa8293b298ad4bd9c6f24e79\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:32:13-37
+152        </receiver>
+153
+154        <service
+154-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\2a8c6b29fa8293b298ad4bd9c6f24e79\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:35:9-38:40
+155            android:name="com.google.android.gms.measurement.AppMeasurementService"
+155-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\2a8c6b29fa8293b298ad4bd9c6f24e79\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:36:13-84
+156            android:enabled="true"
+156-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\2a8c6b29fa8293b298ad4bd9c6f24e79\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:37:13-35
+157            android:exported="false" />
+157-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\2a8c6b29fa8293b298ad4bd9c6f24e79\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:38:13-37
+158        <service
+158-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\2a8c6b29fa8293b298ad4bd9c6f24e79\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:39:9-43:72
+159            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+159-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\2a8c6b29fa8293b298ad4bd9c6f24e79\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:40:13-87
+160            android:enabled="true"
+160-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\2a8c6b29fa8293b298ad4bd9c6f24e79\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:41:13-35
+161            android:exported="false"
+161-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\2a8c6b29fa8293b298ad4bd9c6f24e79\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:42:13-37
+162            android:permission="android.permission.BIND_JOB_SERVICE" />
+162-->[com.google.android.gms:play-services-measurement:21.1.0] C:\Users\akuka\.gradle\caches\transforms-3\2a8c6b29fa8293b298ad4bd9c6f24e79\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:43:13-69
+163
+164        <meta-data
+164-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\akuka\.gradle\caches\transforms-3\b8e8d9393d6f77445e37f0ba6ef7ff75\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+165            android:name="com.google.android.gms.version"
+165-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\akuka\.gradle\caches\transforms-3\b8e8d9393d6f77445e37f0ba6ef7ff75\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+166            android:value="@integer/google_play_services_version" />
+166-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\akuka\.gradle\caches\transforms-3\b8e8d9393d6f77445e37f0ba6ef7ff75\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+167
+168        <provider
+168-->[androidx.emoji2:emoji2:1.2.0] C:\Users\akuka\.gradle\caches\transforms-3\41ecee9c4f0243ecc526267422dca4ce\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+169            android:name="androidx.startup.InitializationProvider"
+169-->[androidx.emoji2:emoji2:1.2.0] C:\Users\akuka\.gradle\caches\transforms-3\41ecee9c4f0243ecc526267422dca4ce\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+170            android:authorities="com.example.notesfirebase.androidx-startup"
+170-->[androidx.emoji2:emoji2:1.2.0] C:\Users\akuka\.gradle\caches\transforms-3\41ecee9c4f0243ecc526267422dca4ce\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+171            android:exported="false" >
+171-->[androidx.emoji2:emoji2:1.2.0] C:\Users\akuka\.gradle\caches\transforms-3\41ecee9c4f0243ecc526267422dca4ce\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+172            <meta-data
+172-->[androidx.emoji2:emoji2:1.2.0] C:\Users\akuka\.gradle\caches\transforms-3\41ecee9c4f0243ecc526267422dca4ce\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+173                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+173-->[androidx.emoji2:emoji2:1.2.0] C:\Users\akuka\.gradle\caches\transforms-3\41ecee9c4f0243ecc526267422dca4ce\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+174                android:value="androidx.startup" />
+174-->[androidx.emoji2:emoji2:1.2.0] C:\Users\akuka\.gradle\caches\transforms-3\41ecee9c4f0243ecc526267422dca4ce\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+175            <meta-data
+175-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\akuka\.gradle\caches\transforms-3\4bc9270adcabd6a49dbda201da8b4836\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+176                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+176-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\akuka\.gradle\caches\transforms-3\4bc9270adcabd6a49dbda201da8b4836\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+177                android:value="androidx.startup" />
+177-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\akuka\.gradle\caches\transforms-3\4bc9270adcabd6a49dbda201da8b4836\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+178        </provider>
+179    </application>
+180
+181</manifest>
