@@ -1,0 +1,32 @@
+body{
+  background-color: #2d4059;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+h1{
+  text-align: center;
+  color: #ea5455;
+  font-size: 3rem;
+  font-family: 'Press Start 2P', cursive;
+}
+h2{
+  font-size: 2rem;
+  color: #e5e5e5;
+}
+.flt{
+  display: flex;
+  float: right;
+}
+p{
+  text-align: justify;
+  color: #decdc3;
+  font-size: 1.8rem;
+  width: 75%;
+  font-family: 'Sansita Swashed', cursive;
+}
+img{
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+}
