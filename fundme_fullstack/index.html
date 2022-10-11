@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./blockchain.png">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.22.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <title>FundMe App</title>
+  </head>
+  <body class="m-0 p-0 h-0">
+    <center class="flex-col space-y-5 h-screen justify-center items-center bg-gradient-to-bl to-pink-400 via-sky-800 from-cyan-500">
+          <h1 class="text-4xl font-bold p-5">SIMPLE FUND ME APP !!</h1>
+          <button id="btnConnect" class="btn btn-primary" onclick="btnConnect()">Connect</button>
+          <button id="btnFund" class="btn btn-primary" onclick="btnFund()">Fund</button>
+          <div class="form-control flex items-center"> 
+            <label class="label">
+              <span class="label-text">Enter amount</span>
+            </label>
+            <label class="input-group flex items-center justify-center">
+              <input type="text" id="ethAmount" placeholder="0.01" class="input input-bordered " />
+              <span class="py-3">ETH</span>
+            </label>
+          </div>
+          
+
+          <button id="balanceBtn" class="btn btn-primary">Balance</button>
+          <button id="withdrawBtn"class="btn btn-primary">withdraw</button>
+          <h1 id="stats" class="text-white text-3xl font-semibold"></h1>
+          <!-- <img src="./blockchain.png" alt="" class="img-responsive w-[200px] h-[200px]  mt-3"> -->
+          <div class="toast   " id="toast">
+            <div class="alert alert-success" id="alert-toast">
+              <div>
+                <span id="toast-text" class=""></span>
+              </div>
+            </div>
+          </div>
+    </center>
+    <script src="./index.js" type="module"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>

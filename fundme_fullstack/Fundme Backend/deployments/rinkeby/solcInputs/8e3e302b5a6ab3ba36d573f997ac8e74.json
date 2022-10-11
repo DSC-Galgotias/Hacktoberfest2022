@@ -1,0 +1,41 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/fund_me.sol": {
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.8;\n\nimport \"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol\";\nimport \"./PriceConverter.sol\";\n\nerror FundMe__NotOwner();\n\n/**\n * @title FundMe\n * @dev FundMe is a smart contract that allows users to create and manage fund requests.\n*/\ncontract FundMe {\n    //Type Declarations\n    using PriceConverter for uint256;\n    //State Variables\n    mapping(address => uint256) public addressToAmountFunded;\n    address[] public funders;\n    // Could we make this constant?  /* hint: no! We should make it immutable! */\n    address public /* immutable */ i_owner;\n    uint256 public constant MINIMUM_USD = 50 * 10 ** 18;\n    AggregatorV3Interface public priceFeed;\n    \n    constructor(address PriceFeedAddress) {\n        i_owner = msg.sender;\n        priceFeed = AggregatorV3Interface(PriceFeedAddress);\n    }\n\n    function fund() public payable {\n        require(msg.value.getConversionRate(priceFeed) >= MINIMUM_USD, \"You need to spend more ETH!\");\n        addressToAmountFunded[msg.sender] += msg.value;\n        funders.push(msg.sender);\n    }\n\n    modifier onlyOwner {\n        // require(msg.sender == owner);\n        if (msg.sender != i_owner) revert FundMe__NotOwner();\n        _;\n    }\n    receive() external payable {\n        fund();\n    }\n        fallback() external payable {\n        fund();\n    }\n\n    \n    //Function Order\n    //constructer\n    //recieve\n    //fallback\n    //external\n    //public\n    //internal\n    //private\n    //view / pure\n    \n    function withdraw() payable onlyOwner public {\n        for (uint256 funderIndex=0; funderIndex < funders.length; funderIndex++){\n            address funder = funders[funderIndex];\n            addressToAmountFunded[funder] = 0;\n        }\n        funders = new address[](0);\n        (bool callSuccess, ) = payable(msg.sender).call{value: address(this).balance}(\"\");\n        require(callSuccess, \"Call failed\");\n    }\n}\n\n\n"
+    },
+    "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol": {
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface AggregatorV3Interface {\n  function decimals() external view returns (uint8);\n\n  function description() external view returns (string memory);\n\n  function version() external view returns (uint256);\n\n  function getRoundData(uint80 _roundId)\n    external\n    view\n    returns (\n      uint80 roundId,\n      int256 answer,\n      uint256 startedAt,\n      uint256 updatedAt,\n      uint80 answeredInRound\n    );\n\n  function latestRoundData()\n    external\n    view\n    returns (\n      uint80 roundId,\n      int256 answer,\n      uint256 startedAt,\n      uint256 updatedAt,\n      uint80 answeredInRound\n    );\n}\n"
+    },
+    "contracts/PriceConverter.sol": {
+      "content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.8;\r\n\r\nimport \"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol\";\r\n\r\n// Why is this a library and not abstract?\r\n// Why not an interface?\r\nlibrary PriceConverter {\r\n    // We could make this public, but then we'd have to deploy it\r\n    function getPrice(AggregatorV3Interface priceFeed) internal view returns (uint256) {\r\n        // Rinkeby ETH / USD Address\r\n        // https://docs.chain.link/docs/ethereum-addresses/\r\n        (, int256 answer, , , ) = priceFeed.latestRoundData();\r\n        // ETH/USD rate in 18 digit\r\n        return uint256(answer * 10000000000);\r\n    }\r\n\r\n    // 1000000000\r\n    function getConversionRate(\r\n        uint256 ethAmount,\r\n        AggregatorV3Interface priceFeed\r\n    ) internal view returns (uint256) {\r\n        uint256 ethPrice = getPrice(priceFeed);\r\n        uint256 ethAmountInUsd = (ethPrice * ethAmount) / 1000000000000000000;\r\n        // the actual ETH/USD conversion rate, after adjusting the extra 0s.\r\n        return ethAmountInUsd;\r\n    }\r\n}\r\n"
+    }
+  },
+  "settings": {
+    "optimizer": {
+      "enabled": false,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "evm.methodIdentifiers",
+          "metadata",
+          "devdoc",
+          "userdoc",
+          "storageLayout",
+          "evm.gasEstimates"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}
