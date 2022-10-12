@@ -33,7 +33,8 @@
         android:text="@string/share"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@id/guideline2" />
+        app:layout_constraintRight_toLeftOf="@id/guideline2"
+        android:onClick="shareMeme"/>
 
     <Button
         android:id="@+id/nextButton"
