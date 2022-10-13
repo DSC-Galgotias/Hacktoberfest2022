@@ -1,0 +1,34 @@
+body{
+    background-color: #146356;
+    color:white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    font-size: 5rem;
+    color: goldenrod;
+}
+p{
+    
+    font-size: 2rem;
+}
+#message{
+    font-style: italic;
+}
+button {
+    background-color: goldenrod;
+    color:#146356;
+    font-size: 2rem;
+    font-weight: bolder;
+    border: none;
+    border-radius: 2px;
+    margin: auto;
+    display: flex;
+}
+/*startbtn :hover{
+    background-color: #146356;
+    color:goldenrod;
+}*/
+#startbtn{
+   margin-bottom: 20px; 
+}
