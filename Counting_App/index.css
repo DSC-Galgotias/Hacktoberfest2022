@@ -1,0 +1,24 @@
+body{
+    background-image: url("subway.jpg");
+    color:blanchedalmond;
+    text-align: center;
+    font-size: 2rem;
+}
+button{
+    border:none;
+    padding: 10px 0 10px 0;
+    color:blanchedalmond;
+    font-weight: bold;
+    width: 400px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+#increment-btn{
+    background-color: darkgreen;
+}
+/*#decrement-btn{
+    background-color: darkred;
+}*/
+#save-btn{
+    background-color: darkred;
+}
