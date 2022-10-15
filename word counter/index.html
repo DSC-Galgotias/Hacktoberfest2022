@@ -12,6 +12,24 @@
   body{
 background-color: #a7ddc8;
 }
+#form-el{
+  margin-left: 380px;
+  margin-top: 40px;
+}
+#button-el{
+  margin-top: 1.5rem;
+  margin-left: 230px;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 6px 8px;
+  width: 110px;
+}
+#counter-el{
+  margin-left: 210px;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
 </style>
 <body>
     <nav class="navbar navbar-light bg-light">
@@ -22,20 +40,21 @@ background-color: #a7ddc8;
           </a>
         </div>
       </nav>
-  <div class="form-floating">
+  <div class="form-floating" id="form-el" >
     <textarea class="form-control" placeholder="Leave a comment here" id="Textarea" style="height: 100px; width: 550px; "></textarea>
     <label for="Textarea">type your word here</label>
-    <button type="button" onclick="functioncount()">count</button>
+    <button type="button" id="button-el" onclick="functioncount()">count</button>
 
-    <p id="demo"></p>
+    <p id="counter-el">Words:</p>
 
   </div>
   <script>
       function functioncount() {
        var x = document.getElementById("Textarea").value;
+       var counterEl=document.getElementById("counter-el");
        var xCount = x.split(" "
        ).length;
-       alert("you have written " +xCount+" words");
+       counterEl.textContent="Words:"+" "+xCount;
       }
      
 
