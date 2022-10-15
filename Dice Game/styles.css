@@ -39,3 +39,14 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+#start-el{
+  width: 170px;
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+  background-color: #007580;
+  color: white;
+
+}
