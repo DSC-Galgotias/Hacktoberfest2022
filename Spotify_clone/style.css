@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=IBM+Plex+Sans+Thai+Looped:wght@200&family=Montserrat:wght@200&family=Nunito:wght@300&family=Ubuntu+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    background-color: black;
+    height: 50px;
+    color: white;
+    
+font-family: 'Nunito', sans-serif;
+
+}
+nav ul li{
+    padding: 14px;
+}
+.logo img{
+    width: 39px;
+    padding: 8px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+font-family: 'Nunito', sans-serif;
+}
+.container{
+    min-height: 75vh;
+    background-color: black;
+    margin: 20px auto;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    width: 57%;
+    display: flex;
+    border-radius: 9px;
+    padding: 12px;
+    background-image: url("downloads/bcimg.jpg") ;
+    background-repeat: no-repeat;
+    background-size:contain ;
+    /* float: right; */
+    justify-content: left;
+    flex-direction: column;
+
+}
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+#progressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    /* width: 12px; */
+    margin-top: 10px;
+}
+.icons i{
+    cursor: pointer;
+    /* height: 5px; */
+}
+.songitems{
+    margin: 21px 0px;
+background-color: white;
+color: black;
+width: 40%;
+border-radius: 9px;
+}
+.songitems i{
+    cursor: pointer;
+
+}
+.margin{
+    margin: 0px 9px;
+}
+.lol{
+    margin: 0px 13px;
+}
+.songinfo img{
+    width: 45px;
+    position: absolute;
+    left: 50px;
+    top: 9px;
+    opacity: 09;
+    transition: opacity 1s ease-in;
+}
+    
