@@ -1,0 +1,334 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:'Lato',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: #111;
+    color: white;
+    padding: 20px 40px;
+}
+/* .mainT{
+    font-size: 3rem;
+    font-weight: 400;
+} */
+
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    padding: 10px 20px;
+    border-radius: 10px; 
+}
+.searchInput{
+    border: none;
+    background-color: grey;
+}
+.searchInput::placeholder{
+    color: lightgray;
+}
+.limitedOffer{
+    font-size: 20px;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuItem{
+    margin-right: 50px;
+    cursor: pointer;
+    color: lightgray;
+    font-weight: 400;
+}
+
+.slider{
+    background-image:url("https://images.unsplash.com/photo-1552084117-56a987666449?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80");
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+    overflow: hidden;
+}
+.sliderWrepper{
+    display: flex;
+    width: 500vw;
+    transition: all 1s ease-in-out;
+}
+.sliderItem{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.sliderBag{
+    width: 670px;
+    height: 670px;
+    border-radius: 50%;
+    position: absolute;
+ 
+}
+.sliderImg{
+    z-index: 1;
+   
+}
+
+.sliderTitle{
+    position: absolute;
+    top: 10%;
+    right: 13%;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    background: url(images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    z-index: 1;
+
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0; 
+    }
+}
+.sliderPrice{
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    font-size: 60px;
+    font-weight: 300;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+.buyBtn{
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    z-index: 1;
+}
+.buyBtn:hover{
+    background-color: white;
+    color: black;
+}
+
+.bounce{
+    animation-name:bounce ;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    z-index: 1;
+}
+@keyframes bounce{
+    0%{
+        transform: translateY(0);
+    }  50%{
+        transform: translateY(-35px);
+    }  100%{
+        transform: translateY(0);
+    }
+}
+.sliderItem:nth-child(1) .sliderBag{
+    background-color: #AD3D4A;
+}
+.sliderItem:nth-child(2) .sliderBag{
+    background-color: #ACB1DF;
+}
+.sliderItem:nth-child(3) .sliderBag{
+    background-color: #00639E;
+}
+.sliderItem:nth-child(4) .sliderBag{
+    background-color: #FFB262;
+}
+
+
+.sliderItem:nth-child(3) .sliderTitle{
+    right: 9%;
+}
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.featureImg{
+    height: 50px;
+    width: 50px;
+}
+.featureTitle{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px;
+}
+.featureDesc{
+  color:grey;
+  width: 50%;
+  height: 100px;
+  
+}
+
+.product{
+    height: 100vh;
+    background-color:whitesmoke;
+    position: relative;
+    clip-path: polygon(0 0, 100% 13%, 100% 100%, 0% 100%);
+}
+.productImg{
+    margin-top: 20px;
+    width: 38%;
+}
+
+.productDetail{
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 40%;
+    padding: 50px;
+}
+.productTitle{
+    font-size:  75px;
+    font-weight: 900;
+
+}
+.productDesc{
+    font-style: 25px;
+    color: grey;
+}
+.colors,.sizes{
+    display: flex;
+    margin-bottom: 20px;
+}
+.color{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #AD3D4A;
+    border-radius: 50%;
+    margin: 12px;
+    cursor: pointer;
+
+}
+
+.color:last-child{
+    background-color: black;
+}
+.size{
+    padding: 5px 20px;
+    border: 1px solid black;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.productBtn{
+    float: right;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.productBtn:hover{
+    background-color: white;
+    color: black;
+}
+@media screen and (max-width:480px){
+    nav{
+        padding: 20px;
+    }
+    .search{
+        display:none;
+    }
+    .menuItem{
+        margin: 20px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .navBottom{
+       flex-wrap: wrap; 
+    }
+    .slider{
+        clip-path: none;
+    }
+    .sliderImg{
+        width: 90%;
+        /* margin-left: 20px; */
+    }
+    .sliderBag{
+        width: 90%;
+        height: 90%;
+    }
+    .sliderTitle{
+        font-size: 20px;
+        font-weight: 0;
+        -webkit-text-stroke: 1px #fff;
+    }
+    .sliderPrice{
+        top:unset;
+        left: 0;
+        bottom: 100px;
+        background-color: lightgray;
+        font-size: 40px;
+    }
+    .buyBtn{
+        bottom: 0;
+        right: 0;
+        top:unset;
+        font-size: 30px;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .product{
+        clip-path: none;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          
+    }
+    .productImg{
+        width: 80%;
+    }
+    .productDetail{
+        width: 100%;
+        padding: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+
+    }
+    .productTitle{
+        font-size: 40px;
+        margin: 0;
+    }
+
+}
