@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "by": "Shashank",
+    "byID": 1,
+    "postTitle": "Hello All",
+    "postIMG": "https://t4.ftcdn.net/jpg/02/98/00/47/360_F_298004771_mtf8mWsEGiUBqqTyRCNTmEsDZdKMty1V.jpg",
+    "likes": 5,
+    "comments": [{ "Rahul": "Hola !!"},{ "Harsh": "Banjour" }]
+  },
+  {
+    "id": 2,
+    "by": "Shashank",
+    "byID": 1,
+    "postTitle": "How's you all ",
+    "postIMG": "https://c.ndtvimg.com/2021-06/bt6j2r38_alphabet-memes_625x300_29_June_21.jpg",
+    "likes": 10,
+    "comments": [{ "Rahul": "Wow"}, {"Harsh": "Nice" }]
+  },
+  {
+    "id": 3,
+    "by": "Harsh",
+    "byID": 2,
+    "postTitle": "Hello",
+    "postIMG": "https://i.pinimg.com/736x/45/27/4c/45274c34d01f8accf19029ca5589c123.jpg",
+    "likes": 15,
+    "comments": [{ "Rahul": "Hola !!"},{ "Harsh": "Banjour" }]
+  },{
+    "id": 4,
+    "by": "Rahul",
+    "byID": 3,
+    "postTitle": "Hello All",
+    "postIMG": "https://t4.ftcdn.net/jpg/02/98/00/47/360_F_298004771_mtf8mWsEGiUBqqTyRCNTmEsDZdKMty1V.jpg",
+    "likes": 5,
+    "comments": [{ "Shashank": "Hola !!"},{ "Harsh": "Banjour" }]
+  },{
+    "id": 5,
+    "by": "Harsh",
+    "byID": 2,
+    "postTitle": "Hello All",
+    "postIMG": "https://www.bhaktiphotos.com/wp-content/uploads/2018/04/Hindu-Shiva-God-Wallpaper-Free-Download.jpg",
+    "likes": 5,
+    "comments": [{ "Rahul": "Hola !!"},{ "Harsh": "Banjour" }]
+  },{
+    "id": 6,
+    "by": "Rajat",
+    "byID": 4,
+    "postTitle": "Hello All",
+    "postIMG": "http://webmeup.com/upload/blog/lead-image-105.png",
+    "likes": 5,
+    "comments": [{ "Rahul": "Hola !!"},{ "Harsh": "Banjour" }]
+  },{
+    "id": 7,
+    "by": "Shashank",
+    "byID": 1,
+    "postTitle": "Hello All",
+    "postIMG": "https://st.depositphotos.com/1000423/5159/i/600/depositphotos_51591009-stock-photo-businesswoman-having-brilliant-idea.jpg",
+    "likes": 5,
+    "comments": [{ "Rahul": "Hola !!"},{ "Harsh": "Banjour" }]
+  },{
+    "id": 8,
+    "by": "Rahul",
+    "byID": 3,
+    "postTitle": "Hello All",
+    "postIMG": "https://t4.ftcdn.net/jpg/02/98/00/47/360_F_298004771_mtf8mWsEGiUBqqTyRCNTmEsDZdKMty1V.jpg",
+    "likes": 5,
+    "comments": [{ "Rahul": "Hola !!"},{ "Harsh": "Banjour" }]
+  },{
+    "id": 9,
+    "by": "Shashank",
+    "byID": 1,
+    "postTitle": "Hello All",
+    "postIMG": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT28Qoq-w9a8lgQ10Ptn1qGfZdShhjYcQ6HIeMRWYufIpnrmFAXzViWSevtJzIHN4wABMM&usqp=CAU",
+    "likes": 5,
+    "comments": [{ "Rahul": "Hola !!"},{ "Harsh": "Banjour" }]
+  }
+]
