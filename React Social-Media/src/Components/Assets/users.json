@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Shashank",
+    "fullName": "Shashank Rai",
+    "email": "Shashank@gmail.com",
+    "pass": "123"
+  },
+  {
+    "id": 2,
+    "name": "Harsh",
+    "fullName": "Harsh Shukla",
+    "email": "Harsh@gmail.com",
+    "pass": "123"
+  },
+  {
+    "id": 3,
+    "name": "Rahul",
+    "fullName": "Rahul Gupta",
+    "email": "Rahul@gmail.com",
+    "pass": "123"
+  },
+  {
+    "id": 4,
+    "name": "Rajat",
+    "fullName": "Rajat Sharma",
+    "email": "Rajat@gmail.com",
+    "pass": "123"
+  }
+]
