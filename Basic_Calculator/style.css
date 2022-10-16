@@ -1,0 +1,66 @@
+.container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4, 335px); 
+    grid-template-rows: minmax(100px, auto) repeat(5, 70px);
+    min-height: 80vh;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    background-color: #A7BEAE;
+    border: 3px solid #333;
+    border-radius: 5px 2px 5px 5px;
+}
+
+button:hover {
+    background-color: #E7E8D1;
+    color: #B85042;
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: #333;
+    border-radius: 20px 20px 0 0;
+    word-wrap: break-word;
+    word-break: break-all;
+    -ms-word-break: break-all;
+    -ms-word-wrap: break-word;
+}
+
+.overoutput {
+    background-color: #234E70;
+    padding-right: 10px;
+    padding: 30px;
+    text-align: end;
+    font-size: 30px;
+    color: rgba(225, 225, 225, 100);
+    min-height: 25px;
+}
+
+.tempoutput {
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    min-height: 25px;
+}
+
+.underoutput {
+    padding: 20px;
+    text-align: end;
+    font-size: 30px;
+    color: white;
+    min-height: 50px;
+}
+
+.title {
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 25px;
+    color: white;
+}
