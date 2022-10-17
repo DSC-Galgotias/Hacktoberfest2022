@@ -5,7 +5,7 @@ A simple, minimalistic website for taking orders from the web and delivering the
 
 ## Screenshot
 
-![Calculator Made By Kunal](/Calculator/img/Screenshot.png)
+![Calculator Made By Kunal](/Calculator/image/Screenshot.png)
 
 
 
