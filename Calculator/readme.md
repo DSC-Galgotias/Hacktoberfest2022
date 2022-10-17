@@ -17,7 +17,7 @@ A simple, minimalistic website for to make ease and enhancing calculator user in
 
 ## Tech Stack
 
-**Client:** HTML, CSS, sCSS
+**Client:** HTML, CSS, JavaScript
 
 **Server:** LocalHost
 
