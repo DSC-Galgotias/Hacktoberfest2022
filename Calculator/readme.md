@@ -1,6 +1,6 @@
 
-# Food Delivery Webiste
-A simple, minimalistic website for taking orders from the web and delivering them to customers
+# Minimal Calculator Webiste
+A simple, minimalistic website for to make ease and enhancing calculator user interface.
 
 
 ## Screenshot
