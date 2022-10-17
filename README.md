@@ -1,5 +1,5 @@
-# Hacktoberfest2022
-Make your first Pull Request on Hacktoberfest 2022. Don't forget to spread love and if you like give us a star
+# HacktoberFest2022
+Make Your First Pull Request On HacktoberFest 2022. Don't Forget To Spread Love And If You Like Give Us A Star
 ### Quality of Pull Request is Paramount, Quantity comes Second
 <p align="center"> <img src="https://uno-website-assets.s3.amazonaws.com/wp-content/uploads/2022/09/28094927/Uno_HackFest22_Hero_V1-1024x395.jpg" alt="image" /> </p>
 <img src="https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg"/>
@@ -67,3 +67,4 @@ git push origin my-new-branch
 
 - [Hacktoberfest 2022](https://hacktoberfest.digitalocean.com)
 - [Hacktoberfest 2022 Participation Guidelines](https://hacktoberfest.com/participation)
+ALL THE BEST!!
