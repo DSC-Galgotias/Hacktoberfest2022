@@ -1,0 +1,153 @@
+.menu a {
+    text-decoration: none;
+    padding: 15px 25px;
+    display: inline-block;
+    color: #575757;
+    font-weight: bold;
+    font-size: 18px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.section{
+    margin-bottom: 3%;
+}
+.section h1{
+    font-family: 'Lobster Two', cursive;
+    font-weight: bold;
+    color: #333;
+    font-size: 70px;
+}
+.section h1 span{
+    color: #f08e4c;
+}
+.btn{
+    font-size: 16px;
+    padding: 15px 30px;
+    background-image: linear-gradient(to right, #f08e4c, #f55104);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 30px;
+    box-shadow: 0px 2px 30px #ec8657;
+
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.half-width {
+    width: 50%;
+    margin-bottom: 2%;
+}
+.s1 p{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 50px;
+}
+.s2{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 50px;
+    padding: 16%;
+}
+#about img{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    padding-top: 20%;
+}
+#background1{
+    background-image: url("../images/shapes/");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#background2{
+    background-image: url("../images/shapes/background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+.my-recipies{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.my-recipies h1{
+    padding: 0;
+    margin: 0;
+}
+.my-recipies p{
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.container h2{
+    text-align: left;
+}
+.recipe{
+    width: 28%;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px gray;
+    margin-top: 40px;
+}
+.recipe-img img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+.trans-img{
+  transform: scale(0.9);
+  transition: 0.2s all ease-in;
+}
+.recipe-content h3{
+    margin: 20px 0 15px;
+    font-size: 30px;
+}
+.recipe-content p{
+    line-height: 2;
+}
+#recipe{
+    padding: 30px 0 80px;
+}
+.subscriber{
+    text-align: center;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.footer{
+    background-color: #575757;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.footer h1{
+    font-family: 'Lobster Two', cursive;
+    color: #fff;
+    font-size: 40px;
+    margin: 0 0 30px;
+}
+.footer p{
+    font-size: 18px;
+    color: #fff;
+}
+.gradient-text {
+    font-family: 'Lobster Two', cursive;
+    background-image: linear-gradient(45deg, #f08e4c, #af4261);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }

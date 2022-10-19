@@ -1,0 +1,20 @@
+:root {
+    --darkblue: #16213E;
+    --lightblue1: #a1c4fd;
+    --lightblue2: #c2e9fb;
+    --colorlogo: #06275c;
+    --colorPara: #0c0222;
+    --buttonBG: #100720;
+    --searchResultBG: #E8F9FD;
+    --detailBG:lightgrey;
+}
+
+.darkTheme {
+    --lightblue1: var(--darkblue);
+    --lightblue2: var(--darkblue);
+    --colorlogo: #fff;
+    --colorPara: #9C9EFE;
+    --buttonBG: #c9b5ec;
+    --searchResultBG: #003865;
+    --detailBG:rgb(41, 40, 40);
+}
