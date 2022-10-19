@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sneakers store</title>
+</head>
+
+<body>
+    <nav>
+        <div class="navTop">
+            <div class="navItem">
+
+                <h1 class="mainT">Sneakers</h1>
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput" />
+                    <img src="./images/magnifying-glass-solid.svg" width="20" height="20" alt="" class="searchIcon" />
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Limited offer!!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">SUPERSTAR</h3>
+            <h3 class="menuItem">NMD</h3>
+            <h3 class="menuItem">AIR JORDAN 1</h3>
+            <h3 class="menuItem">YEEZY 350</h3>
+
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrepper">
+            <div class="sliderItem">
+                <div class="bounce">
+                    <img src="./images/superstar.png" alt="" class="sliderImg" />
+                </div>
+                <div class="sliderBag"></div>
+                <h1 class="sliderTitle">SUPERSTAR <br />NEW <br />SEASON</h1>
+                <h2 class="sliderPrice">₹6999</h2>
+                <a href="#product">
+                    <button class="buyBtn">BUY NOW !</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <div class="bounce">
+                    <img src="./images/NMD.png" width="650px" height="670px" alt="" class="sliderImg" />
+                </div>
+                <div class="sliderBag"></div>
+                <h1 class="sliderTitle">NMD <br />NEW <br />SEASON</h1>
+                <h2 class="sliderPrice">₹4999</h2>
+                <a href="#product">
+                    <button class="buyBtn">BUY NOW !</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <div class="bounce">
+                    <img src="./images/aj1.png" width="650px" height="670px" alt="" class="sliderImg" />
+                </div>
+                <div class="sliderBag"></div>
+                <h1 class="sliderTitle">AIR JORDAN 1 <br />NEW <br />SEASON</h1>
+                <h2 class="sliderPrice">₹8999</h2>
+                <a href="#product">
+                    <button class="buyBtn">BUY NOW !</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <div class="bounce">
+                    <img src="./images/yeezy.png" width="650px" height="670px" alt="" class="sliderImg" />
+                </div>
+                <div class="sliderBag"></div>
+                <h1 class="sliderTitle">YEEZY 350 <br />NEW <br />SEASON</h1>
+                <h2 class="sliderPrice">₹5999</h2>
+                <a href="#product">
+                    <button class="buyBtn">BUY NOW !</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+            <img src="./images/truck.png" alt="" class="featureImg" />
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free Worldwide shipping for all the items</span>
+        </div>
+        <div class="feature">
+            <img src="./images/return-box.png" alt="" class="featureImg" />
+            <span class="featureTitle">30 DAYS RESTURN</span>
+            <span class="featureDesc">No question return and easy refund in 10 days.</span>
+        </div>
+        <div class="feature">
+            <img src="./images/gift.png" alt="" class="featureImg" />
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">buy gift cards and use cupon code easily</span>
+        </div>
+        <div class="feature">
+            <img src="./images/contact.png" alt="" class="featureImg" />
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">keep in touch via email and support system to track your order or
+                report an issue</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="./images/superstar.png" alt="" class="productImg" />
+        <div class="productDetail">
+            <h1 class="productTitle">SUPERSTAR</h1>
+            <h2 class="price">₹6999</h2>
+            <p class="productDesc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam,
+                velit. Libero, repudiandae! Earum sunt, architecto cumque dolor ea qui
+                dicta perspiciatis ipsum tempora consectetur ducimus, impedit quidem
+                quia rem? Quisquam!
+            </p>
+
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+
+            </div>
+            <div class="sizes">
+                <div class="size">40</div>
+                <div class="size">42</div>
+                <div class="size">44</div>
+            </div>
+            <button class="productBtn">BUY NOW!</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
