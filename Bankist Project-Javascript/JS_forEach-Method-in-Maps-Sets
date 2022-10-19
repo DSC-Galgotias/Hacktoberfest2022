@@ -1,0 +1,18 @@
+// forEach in Maps
+let currencies = new Map([
+  ["USD", "United Sates Dollar"],
+  ["EUR", "Euro"],
+  ["GBP", "Pound Sterling"],
+]);
+console.log(currencies);
+
+currencies.forEach(function (value, key, map) {
+  console.log(`${key}: ${value}`);
+});
+
+// forEach in Sets
+let uniqueCurren = new Set(["USD", "EUR", "USD", "GBP", "GBP"]);
+console.log(uniqueCurren);
+uniqueCurren.forEach(function (value, key, set) {
+  console.log(`${key}: ${value}`);
+});
