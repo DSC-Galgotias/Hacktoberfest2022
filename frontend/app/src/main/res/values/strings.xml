@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IRecycle</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="total_points">Total Points</string>
+    <string name="_25">25</string>
+    <string name="days">Days</string>
+    <string name="streaks">Streaks</string>
+    <string name="achievements">Achievements</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="share">Share</string>
+</resources>
