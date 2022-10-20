@@ -1,0 +1,265 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"DesignSurface\">\r\n    <option name=\"filePathToZoomLevelMap\">\r\n      <map>\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/drawable-v24/auth_gradient.xml\" value=\"0.164\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/drawable-v24/ic__1_.xml\" value=\"0.164\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/drawable/ic__1_.xml\" value=\"0.164\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/drawable/ic_back_ground.xml\" value=\"0.164\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/drawable/ic_baseline_keyboard_arrow_up_24.xml\" value=\"0.164\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/drawable/ic_coin.xml\" value=\"0.164\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/font/inter.xml\" value=\"0.28020833333333334\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/font/inter_bold.xml\" value=\"0.23001282599401454\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/font/montserrat_alternates_bold.xml\" value=\"0.28020833333333334\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/activity_auth_acitivity.xml\" value=\"0.25\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/activity_camera.xml\" value=\"0.20521590423257802\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/activity_main.xml\" value=\"0.25\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_card_view_goals.xml\" value=\"0.264\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_first.xml\" value=\"0.20261713803292528\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_home.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_log_in.xml\" value=\"0.25\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_object_detection.xml\" value=\"0.176\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_otp.xml\" value=\"0.20521590423257802\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_select_object.xml\" value=\"0.20521590423257802\" />\r\n        <entry key=\"..\\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_sign_up.xml\" value=\"0.20521590423257802\" />\r\n        <entry key=\"..\\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/activity_camera.xml\" value=\"0.16944444444444445\" />\r\n        <entry key=\"..\\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/card_view_post.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_achievement.xml\" value=\"0.23229166666666667\" />\r\n        <entry key=\"..\\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_congo.xml\" value=\"0.23229166666666667\" />\r\n        <entry key=\"..\\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_dustbin_detection.xml\" value=\"0.23229166666666667\" />\r\n        <entry key=\"..\\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_first.xml\" value=\"0.23229166666666667\" />\r\n        <entry key=\"..\\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_home.xml\" value=\"0.1\" />\r\n        <entry key=\"..\\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_object_detection.xml\" value=\"0.16944444444444445\" />\r\n        <entry key=\"..\\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_post.xml\" value=\"0.21822916666666667\" />\r\n        <entry key=\"..\\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_select_object.xml\" value=\"0.23229166666666667\" />\r\n        <entry key=\"..\\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/leaderboard_item_list.xml\" value=\"0.23229166666666667\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n  <component name=\"ProjectType\">\r\n    <option name=\"id\" value=\"Android\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision b5ecdd91e4f220d9cbf257d2ee88b936f3111a4a)
++++ b/.idea/misc.xml	(date 1661450077003)
+@@ -23,21 +23,33 @@
+         <entry key="..\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_otp.xml" value="0.20521590423257802" />
+         <entry key="..\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_select_object.xml" value="0.20521590423257802" />
+         <entry key="..\:/Users/KUNAL/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_sign_up.xml" value="0.20521590423257802" />
++        <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/drawable/home.xml" value="0.2385" />
++        <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/activity_auth_acitivity.xml" value="0.1" />
+         <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/activity_camera.xml" value="0.16944444444444445" />
++        <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/activity_main.xml" value="0.21333333333333335" />
++        <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/activity_splash_screen.xml" value="0.21666666666666667" />
+         <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/card_view_post.xml" value="0.1" />
++        <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/card_view_profile.xml" value="0.21666666666666667" />
+         <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_achievement.xml" value="0.23229166666666667" />
++        <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_card_view_goals.xml" value="0.21666666666666667" />
+         <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_congo.xml" value="0.23229166666666667" />
+         <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_dustbin_detection.xml" value="0.23229166666666667" />
+         <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_first.xml" value="0.23229166666666667" />
++        <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_goals.xml" value="0.21666666666666667" />
+         <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_home.xml" value="0.1" />
++        <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_log_in.xml" value="0.21666666666666667" />
+         <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_object_detection.xml" value="0.16944444444444445" />
++        <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_otp.xml" value="0.21666666666666667" />
+         <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_post.xml" value="0.21822916666666667" />
++        <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_profile.xml" value="0.21666666666666667" />
+         <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_select_object.xml" value="0.23229166666666667" />
++        <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/fragment_sign_up.xml" value="0.21666666666666667" />
+         <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/layout/leaderboard_item_list.xml" value="0.23229166666666667" />
++        <entry key="..\:/Users/Sandeep/OneDrive/Desktop/redbrickhacks-2022-submission-brocode/frontend/app/src/main/res/menu/bottom_nav_menu.xml" value="0.23229166666666667" />
+       </map>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/build/classes" />
+   </component>
+   <component name="ProjectType">
+Index: app/src/main/java/com/example/irecycle/network/ServiceBuilder.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.irecycle.network\r\n\r\nimport okhttp3.OkHttpClient\r\nimport retrofit2.Retrofit\r\nimport retrofit2.converter.gson.GsonConverterFactory\r\n\r\nobject ServiceBuilder {\r\n\r\n    private val client = OkHttpClient.Builder().build()\r\n    fun getInstance(): Retrofit {\r\n        return Retrofit.Builder()\r\n            .baseUrl(\"https://irecycle.azurewebsites.net/\")\r\n            .addConverterFactory(GsonConverterFactory.create())\r\n            .client(client)\r\n            .build()\r\n    }\r\n\r\n    fun getInstanceNg(): Retrofit {\r\n        return Retrofit.Builder()\r\n            .baseUrl(\"https://06e4-49-42-65-105.eu.ngrok.io/\")\r\n            .addConverterFactory(GsonConverterFactory.create())\r\n            .client(client)\r\n            .build()\r\n    }\r\n\r\n    fun init(): Api {\r\n\r\n    fun getInstance2():Retrofit{\r\n        return  Retrofit.Builder()\r\n            .baseUrl(\"http://44.206.0.172:3000\")\r\n            .addConverterFactory(GsonConverterFactory.create())\r\n            .client(client)\r\n            .build()\r\n    }\r\n    fun init():Api\r\n    {\r\n        return getInstance().create(Api::class.java)\r\n    }\r\n\r\n    fun initNg(): Api\r\n    {\r\n        return getInstanceNg().create(Api::class.java)\r\n    }\r\n\r\n    fun init2():Api\r\n    {\r\n        return getInstance2().create(Api::class.java)\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/irecycle/network/ServiceBuilder.kt b/app/src/main/java/com/example/irecycle/network/ServiceBuilder.kt
+--- a/app/src/main/java/com/example/irecycle/network/ServiceBuilder.kt	(revision b5ecdd91e4f220d9cbf257d2ee88b936f3111a4a)
++++ b/app/src/main/java/com/example/irecycle/network/ServiceBuilder.kt	(date 1655602376000)
+@@ -23,27 +23,24 @@
+             .build()
+     }
+ 
+-    fun init(): Api {
+ 
+-    fun getInstance2():Retrofit{
+-        return  Retrofit.Builder()
++    fun getInstance2(): Retrofit {
++        return Retrofit.Builder()
+             .baseUrl("http://44.206.0.172:3000")
+             .addConverterFactory(GsonConverterFactory.create())
+             .client(client)
+             .build()
+     }
+-    fun init():Api
+-    {
++
++    fun init(): Api {
+         return getInstance().create(Api::class.java)
+     }
+ 
+-    fun initNg(): Api
+-    {
++    fun initNg(): Api {
+         return getInstanceNg().create(Api::class.java)
+     }
+ 
+-    fun init2():Api
+-    {
++    fun init2(): Api {
+         return getInstance2().create(Api::class.java)
+     }
+ }
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"testRunner\" value=\"GRADLE\" />\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	(revision b5ecdd91e4f220d9cbf257d2ee88b936f3111a4a)
++++ b/.idea/gradle.xml	(date 1661449451278)
+@@ -7,6 +7,7 @@
+         <option name="testRunner" value="GRADLE" />
+         <option name="distributionType" value="DEFAULT_WRAPPED" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
++        <option name="gradleJvm" value="Embedded JDK" />
+         <option name="modules">
+           <set>
+             <option value="$PROJECT_DIR$" />
+Index: gradle.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Project-wide Gradle settings.\r\n# IDE (e.g. Android Studio) users:\r\n# Gradle settings configured through the IDE *will override*\r\n# any settings specified in this file.\r\n# For more details on how to configure your build environment visit\r\n# http://www.gradle.org/docs/current/userguide/build_environment.html\r\n# Specifies the JVM arguments used for the daemon process.\r\n# The setting is particularly useful for tweaking memory settings.\r\norg.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8\r\n# When configured, Gradle will run in incubating parallel mode.\r\n# This option should only be used with decoupled projects. More details, visit\r\n# http://www.gradle.org/docs/current/userguide/multi_project_builds.html#sec:decoupled_projects\r\n# org.gradle.parallel=true\r\n# AndroidX package structure to make it clearer which packages are bundled with the\r\n# Android operating system, and which are packaged with your app\"s APK\r\n# https://developer.android.com/topic/libraries/support-library/androidx-rn\r\nandroid.useAndroidX=true\r\n# Kotlin code style for this project: \"official\" or \"obsolete\":\r\nkotlin.code.style=official\r\n# Enables namespacing of each library's R class so that its R class includes only the\r\n# resources declared in the library itself and none from the library's dependencies,\r\n# thereby reducing the size of the R class for that library\r\nandroid.nonTransitiveRClass=true
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/gradle.properties b/gradle.properties
+--- a/gradle.properties	(revision b5ecdd91e4f220d9cbf257d2ee88b936f3111a4a)
++++ b/gradle.properties	(date 1655603798000)
+@@ -15,6 +15,7 @@
+ # Android operating system, and which are packaged with your app"s APK
+ # https://developer.android.com/topic/libraries/support-library/androidx-rn
+ android.useAndroidX=true
++android.enableJetifier=true
+ # Kotlin code style for this project: "official" or "obsolete":
+ kotlin.code.style=official
+ # Enables namespacing of each library's R class so that its R class includes only the
+Index: app/src/main/java/com/example/irecycle/fragment/dash/HomeFragment.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.irecycle.fragment.dash\r\n\r\nimport android.content.Intent\r\nimport android.graphics.RenderEffect\r\nimport android.graphics.Shader\r\nimport android.net.Uri\r\nimport android.os.Build\r\nimport android.os.Bundle\r\nimport android.view.*\r\nimport android.widget.PopupMenu\r\nimport android.widget.Toast\r\nimport androidx.databinding.DataBindingUtil\r\nimport androidx.fragment.app.Fragment\r\nimport androidx.recyclerview.widget.LinearLayoutManager\r\nimport androidx.recyclerview.widget.RecyclerView\r\nimport com.denzcoskun.imageslider.constants.ScaleTypes\r\nimport com.denzcoskun.imageslider.models.SlideModel\r\nimport com.example.irecycle.R\r\nimport com.example.irecycle.adapter.AdapterGoals\r\nimport com.example.irecycle.adapter.PostAdapter\r\nimport com.example.irecycle.databinding.FragmentHomeBinding\r\nimport com.example.irecycle.model.GoalsModel\r\nimport com.example.irecycle.model.Post\r\nimport com.example.irecycle.network.ServiceBuilder\r\nimport retrofit2.Call\r\nimport retrofit2.Callback\r\nimport retrofit2.Response\r\n\r\n\r\nclass HomeFragment : Fragment() {\r\n\r\n    lateinit var binding: FragmentHomeBinding\r\n    val postAdapter = PostAdapter()\r\n\r\n    override fun onCreate(savedInstanceState: Bundle?) {\r\n        super.onCreate(savedInstanceState)\r\n\r\n\r\n    }\r\n\r\n    override fun onCreateView(\r\n        inflater: LayoutInflater, container: ViewGroup?,\r\n        savedInstanceState: Bundle?\r\n    ): View? {\r\n        binding = DataBindingUtil.inflate(layoutInflater, R.layout.fragment_home, container, false)\r\n\r\n        getPost()\r\n\r\n\r\n        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {\r\n            binding.bg.setRenderEffect(\r\n                RenderEffect.createBlurEffect(\r\n                    100.0f,100.0f,Shader.TileMode.CLAMP\r\n                )\r\n            )\r\n        }\r\n        val imageList = ArrayList<SlideModel>() // Create image list\r\n        imageList.add(SlideModel(R.drawable.slider,ScaleTypes.FIT))\r\n        imageList.add(SlideModel(R.drawable.slider4,ScaleTypes.FIT))\r\n        imageList.add(SlideModel(R.drawable.slider_three,ScaleTypes.FIT))\r\n        imageList.add(SlideModel(R.drawable.sliderone,ScaleTypes.FIT))\r\n\r\n        binding.HomePageSlider.setImageList(imageList)\r\n\r\n\r\n        binding.DonationOne.setOnClickListener {\r\n            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(\"https://sadsindia.org/\"))\r\n            startActivity(browserIntent)\r\n        }\r\n        binding.DonationTwo.setOnClickListener {\r\n            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(\"https://clothesboxfoundation.org/\"))\r\n            startActivity(browserIntent)\r\n        }\r\n\r\n        return binding.root\r\n    }\r\n\r\n    private fun getPost() {\r\n        val api = ServiceBuilder.init2()\r\n        api.getPost().enqueue(object : Callback<List<Post>?> {\r\n            override fun onResponse(call: Call<List<Post>?>, response: Response<List<Post>?>) {\r\n                when{\r\n                    response.isSuccessful -> {\r\n                        response.body()?.let { postAdapter.updateLeaderboard(it) }\r\n                        binding.recyclerView.adapter = postAdapter\r\n                    }\r\n                    else->{\r\n                        Toast.makeText(requireContext(), \"error\", Toast.LENGTH_SHORT).show()\r\n\r\n                    }\r\n                }\r\n            }\r\n\r\n            override fun onFailure(call: Call<List<Post>?>, t: Throwable) {\r\n                Toast.makeText(requireContext(), \"failed\", Toast.LENGTH_SHORT).show()\r\n            }\r\n        })\r\n    }\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/irecycle/fragment/dash/HomeFragment.kt b/app/src/main/java/com/example/irecycle/fragment/dash/HomeFragment.kt
+--- a/app/src/main/java/com/example/irecycle/fragment/dash/HomeFragment.kt	(revision b5ecdd91e4f220d9cbf257d2ee88b936f3111a4a)
++++ b/app/src/main/java/com/example/irecycle/fragment/dash/HomeFragment.kt	(date 1655602376000)
+@@ -50,15 +50,15 @@
+         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+             binding.bg.setRenderEffect(
+                 RenderEffect.createBlurEffect(
+-                    100.0f,100.0f,Shader.TileMode.CLAMP
++                    100.0f, 100.0f, Shader.TileMode.CLAMP
+                 )
+             )
+         }
+         val imageList = ArrayList<SlideModel>() // Create image list
+-        imageList.add(SlideModel(R.drawable.slider,ScaleTypes.FIT))
+-        imageList.add(SlideModel(R.drawable.slider4,ScaleTypes.FIT))
+-        imageList.add(SlideModel(R.drawable.slider_three,ScaleTypes.FIT))
+-        imageList.add(SlideModel(R.drawable.sliderone,ScaleTypes.FIT))
++        imageList.add(SlideModel(R.drawable.slider, ScaleTypes.FIT))
++        imageList.add(SlideModel(R.drawable.slider4, ScaleTypes.FIT))
++        imageList.add(SlideModel(R.drawable.slider_three, ScaleTypes.FIT))
++        imageList.add(SlideModel(R.drawable.sliderone, ScaleTypes.FIT))
+ 
+         binding.HomePageSlider.setImageList(imageList)
+ 
+@@ -68,7 +68,8 @@
+             startActivity(browserIntent)
+         }
+         binding.DonationTwo.setOnClickListener {
+-            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://clothesboxfoundation.org/"))
++            val browserIntent =
++                Intent(Intent.ACTION_VIEW, Uri.parse("https://clothesboxfoundation.org/"))
+             startActivity(browserIntent)
+         }
+ 
+@@ -79,12 +80,12 @@
+         val api = ServiceBuilder.init2()
+         api.getPost().enqueue(object : Callback<List<Post>?> {
+             override fun onResponse(call: Call<List<Post>?>, response: Response<List<Post>?>) {
+-                when{
++                when {
+                     response.isSuccessful -> {
+                         response.body()?.let { postAdapter.updateLeaderboard(it) }
+                         binding.recyclerView.adapter = postAdapter
+                     }
+-                    else->{
++                    else -> {
+                         Toast.makeText(requireContext(), "error", Toast.LENGTH_SHORT).show()
+ 
+                     }
+@@ -96,3 +97,4 @@
+             }
+         })
+     }
++}
+Index: app/src/main/java/com/example/irecycle/fragment/dash/ObjectDetection.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.irecycle.fragment.dash\r\n\r\nimport android.Manifest\r\nimport android.app.AlertDialog\r\nimport android.content.Intent\r\nimport android.graphics.Bitmap\r\nimport android.media.Image\r\nimport android.graphics.*\r\nimport android.media.ThumbnailUtils\r\nimport android.os.Build\r\nimport android.os.Bundle\r\nimport android.provider.MediaStore\r\nimport androidx.fragment.app.Fragment\r\nimport android.view.LayoutInflater\r\nimport android.view.View\r\nimport android.view.ViewGroup\r\nimport android.view.Window\r\nimport android.widget.AdapterView\r\nimport android.widget.ArrayAdapter\r\nimport android.widget.Spinner\r\nimport android.widget.Toast\r\nimport androidx.appcompat.app.AppCompatActivity\r\nimport androidx.core.content.PermissionChecker\r\nimport androidx.core.content.PermissionChecker.checkSelfPermission\r\nimport androidx.databinding.DataBindingUtil\r\nimport androidx.navigation.fragment.findNavController\r\nimport com.example.irecycle.R\r\nimport com.example.irecycle.activity.dash.CameraActivity\r\nimport com.example.irecycle.activity.dash.MainActivity\r\nimport com.example.irecycle.databinding.FragmentObjectDetectionBinding\r\nimport com.example.irecycle.fragment.dash.DustbinDetection.Companion.image\r\nimport com.example.irecycle.model.BoxWithLabel\r\nimport com.example.irecycle.model.objectdetectionmodel\r\nimport com.example.irecycle.model.objectdetectionmodelItem\r\nimport com.example.irecycle.network.ServiceBuilder\r\n\r\nimport com.google.mlkit.common.model.LocalModel\r\nimport com.google.mlkit.vision.common.InputImage\r\nimport com.google.mlkit.vision.objects.ObjectDetection\r\nimport com.google.mlkit.vision.objects.custom.CustomObjectDetectorOptions\r\nimport okhttp3.ResponseBody\r\nimport retrofit2.Call\r\nimport retrofit2.Callback\r\nimport retrofit2.Response\r\nimport java.util.*\r\nimport kotlin.collections.ArrayList\r\n\r\nclass ObjectDetection : Fragment() {\r\n    val imageSize = 224\r\n\r\n    companion object {\r\n        lateinit var image: Bitmap\r\n    }\r\n\r\n    lateinit var binding: FragmentObjectDetectionBinding\r\n    override fun onCreate(savedInstanceState: Bundle?) {\r\n        super.onCreate(savedInstanceState)\r\n        if (if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {\r\n                checkSelfPermission(requireContext(),Manifest.permission.CAMERA) == PermissionChecker.PERMISSION_GRANTED\r\n            } else {\r\n                TODO(\"VERSION.SDK_INT < M\")\r\n            }\r\n        ) {\r\n            val cameraIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)\r\n            startActivityForResult(cameraIntent, 1)\r\n\r\n        } else {\r\n            //Request camera permission if we don't have it.\r\n            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {\r\n                requestPermissions(arrayOf(Manifest.permission.CAMERA), 100)\r\n            }\r\n        }\r\n\r\n    }\r\n    override fun onCreateView(\r\n        inflater: LayoutInflater, container: ViewGroup?,\r\n        savedInstanceState: Bundle?\r\n    ): View? {\r\n        // Inflate the layout for this fragment\r\n        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_object_detection, container, false)\r\n\r\n\r\n        binding.materialButton.setOnClickListener {\r\n            findNavController().navigate(R.id.action_objectDetection_to_dustbinDetection)\r\n        }\r\n\r\n        binding.button2.setOnClickListener {\r\n            startActivity(Intent(activity,MainActivity::class.java))\r\n        }\r\n\r\n        return binding.root\r\n    }\r\n\r\n    private fun classifyImage(image: Bitmap) {\r\n\r\n        val localModel = LocalModel.Builder()\r\n            .setAssetFilePath(\"object_labeler.tflite\")\r\n            .build()\r\n\r\n        val customObjectDetectorOptions = CustomObjectDetectorOptions.Builder(localModel)\r\n            .setDetectorMode(CustomObjectDetectorOptions.SINGLE_IMAGE_MODE)\r\n            .enableClassification()\r\n            .setClassificationConfidenceThreshold(0.5f)\r\n            .setMaxPerObjectLabelCount(3)\r\n            .build()\r\n\r\n        val objectDetector = ObjectDetection.getClient(customObjectDetectorOptions)\r\n\r\n        val inputImage = InputImage.fromBitmap(image, 0)\r\n\r\n        objectDetector.process(inputImage)\r\n            .addOnSuccessListener { detectedObjects ->\r\n\r\n                var list = ArrayList<String>()\r\n                list.add(\"<---Select Your Option-->\")\r\n                for (detectedObject in detectedObjects) {\r\n                    val boundingBox = detectedObject.boundingBox\r\n                    boxes.add(BoxWithLabel(boundingBox))\r\n\r\n                    val trackingId = detectedObject.trackingId\r\n                    for (label in detectedObject.labels) {\r\n                        list.add(label.text)\r\n                        val text = label.text\r\n\r\n//                        confidence.append(\"$conf\\n\")\r\n                    }\r\n\r\n//                    binding.ObjectDetectedName.text=list[0]\r\n//                    val conf = label.confidence\r\n                }\r\n                drawDetectionResult(boxes,image)\r\n                if (list.size > 2) {\r\n                    var adapter = ArrayAdapter(\r\n                        requireContext(),\r\n                        androidx.transition.R.layout.support_simple_spinner_dropdown_item, list\r\n                    )\r\n                    val dialodView =\r\n                        LayoutInflater.from(requireContext())\r\n                            .inflate(R.layout.fragment_select_object, null)\r\n                    val mBuilder = AlertDialog.Builder(requireContext())\r\n                        .setView(dialodView)\r\n                    dialodView.findViewById<Spinner>(R.id.ObjectSpinner).adapter = adapter\r\n                    val alertDialog: AlertDialog = mBuilder.create()\r\n//                        dialodView.findViewById<Spinner>(R.id.ObjectSpinner).setOnItemSelectedListener(object : AdapterView.OnItemSelectedListener {\r\n//                            override fun onItemSelected(parent: AdapterView<*>, view: View, pos: Int, id: Long) {\r\n//                                val item = parent?.getItemAtPosition(pos)\r\n//\r\n////                                alertDialog.cancel()\r\n//                            }\r\n//\r\n//                            override fun onNothingSelected(parent: AdapterView<*>?) {\r\n//                            }\r\n//                        })\r\n\r\n                    dialodView.findViewById<Spinner>(R.id.ObjectSpinner).setOnItemSelectedListener(object : AdapterView.OnItemSelectedListener {\r\n                        override fun onItemSelected(parent: AdapterView<*>, view: View, pos: Int, id: Long) {\r\n                            val item = parent.getItemAtPosition(pos)\r\n                            if(pos!=0) {\r\n                                binding.ObjectDetectedName.text = item.toString()\r\n                                alertDialog.cancel()\r\n                                var api=ServiceBuilder.initNg()\r\n                                var result=api.getObjectDetails(item.toString()).enqueue(object : Callback<List<objectdetectionmodelItem>?> {\r\n                                    override fun onResponse(\r\n                                        call: Call<List<objectdetectionmodelItem>?>,\r\n                                        response: Response<List<objectdetectionmodelItem>?>\r\n                                    ) {\r\n                                        Toast.makeText(requireContext(), response.code().toString(), Toast.LENGTH_SHORT).show()\r\n                                        when\r\n                                        {\r\n\r\n                                            response.isSuccessful->{\r\n                                                var result= response.body()?.get(0)?.step.toString()\r\n                                                binding.ObjectDetectionDescription.text= result.toString()}\r\n                                        }\r\n                                    }\r\n\r\n                                    override fun onFailure(\r\n                                        call: Call<List<objectdetectionmodelItem>?>,\r\n                                        t: Throwable\r\n                                    ) {\r\n                                        TODO(\"Not yet implemented\")\r\n                                    }\r\n                                })\r\n                            }\r\n\r\n\r\n                        }\r\n\r\n                        override fun onNothingSelected(parent: AdapterView<*>?) {\r\n                        }\r\n                    })\r\n                    alertDialog.getWindow()?.requestFeature(Window.FEATURE_NO_TITLE)\r\n                    alertDialog.show()\r\n                }\r\n                else if(list.size==2)\r\n                {\r\n                    binding.ObjectDetectedName.text=list[1].toString()\r\n                }\r\n                else\r\n                {\r\n                    Toast.makeText(requireContext(),\"No Object Detected !! Try Again.\",Toast.LENGTH_LONG).show()\r\n                    var intent=Intent(activity,CameraActivity::class.java)\r\n                    startActivity(intent)\r\n                }\r\n            }.addOnFailureListener {\r\n                Toast.makeText(requireContext(), \"Failure\", Toast.LENGTH_SHORT).show()\r\n            }.addOnCanceledListener {\r\n                Toast.makeText(requireContext(), \"Canceled\", Toast.LENGTH_SHORT).show()\r\n            }\r\n    }\r\n\r\n    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {\r\n        if (requestCode == 1 && resultCode == AppCompatActivity.RESULT_OK) {\r\n            image = data!!.extras!![\"data\"] as Bitmap\r\n            val dimension = Math.min(image!!.width, image!!.height)\r\n            image = ThumbnailUtils.extractThumbnail(image, dimension, dimension)\r\n            binding.imageView3.setImageBitmap(image)\r\n            image = Bitmap.createScaledBitmap(image, imageSize, imageSize, false)\r\n            classifyImage(image)\r\n        }\r\n        super.onActivityResult(requestCode, resultCode, data)\r\n    }\r\n    fun drawDetectionResult(boxes:List<BoxWithLabel>,bitmap: Bitmap)\r\n    {\r\n        var outputBitmap=bitmap.copy(Bitmap.Config.ARGB_8888,true)\r\n        var Canvas=Canvas(bitmap)\r\n        var penrect=Paint()\r\n        penrect.color=Color.RED\r\n        penrect.style=Paint.Style.STROKE\r\n        penrect.strokeWidth=8f\r\n        for(boxWithLabel in boxes)\r\n        {\r\n            Canvas.drawRect(boxWithLabel.rect,penrect)\r\n            var labelsize=Rect(0,0,0,0)\r\n\r\n        }\r\n        binding.imageView3.setImageBitmap(bitmap)\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/irecycle/fragment/dash/ObjectDetection.kt b/app/src/main/java/com/example/irecycle/fragment/dash/ObjectDetection.kt
+--- a/app/src/main/java/com/example/irecycle/fragment/dash/ObjectDetection.kt	(revision b5ecdd91e4f220d9cbf257d2ee88b936f3111a4a)
++++ b/app/src/main/java/com/example/irecycle/fragment/dash/ObjectDetection.kt	(date 1655602771000)
+@@ -113,6 +113,7 @@
+ 
+                 var list = ArrayList<String>()
+                 list.add("<---Select Your Option-->")
++                val boxes = ArrayList<BoxWithLabel>()
+                 for (detectedObject in detectedObjects) {
+                     val boundingBox = detectedObject.boundingBox
+                     boxes.add(BoxWithLabel(boundingBox))
+Index: app/src/main/java/com/example/irecycle/fragment/dash/AchievementFragment.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.irecycle.fragment.dash\r\n\r\nimport android.os.Bundle\r\nimport android.view.LayoutInflater\r\nimport android.view.View\r\nimport android.view.ViewGroup\r\nimport android.widget.Toast\r\nimport androidx.databinding.DataBindingUtil\r\nimport androidx.fragment.app.Fragment\r\nimport androidx.lifecycle.lifecycleScope\r\nimport com.example.irecycle.R\r\nimport com.example.irecycle.adapter.LeaderboardAdapter\r\nimport com.example.irecycle.databinding.FragmentAchievementBinding\r\nimport com.example.irecycle.model.LeaderboardUser\r\nimport com.example.irecycle.network.ServiceBuilder\r\nimport com.example.irecycle.repo.Datastore\r\nimport kotlinx.coroutines.launch\r\nimport retrofit2.Call\r\nimport retrofit2.Callback\r\nimport retrofit2.Response\r\n\r\nclass AchievementFragment : Fragment() {\r\n\r\n    lateinit var binding: FragmentAchievementBinding\r\n    private val leaderboardAdapter = LeaderboardAdapter()\r\n    private val userList = mutableListOf<LeaderboardUser>()\r\n    lateinit var datastore: Datastore\r\n    val images = listOf<Int>(\r\n        R.drawable.avtaar,\r\n        R.drawable.avtaar2,\r\n        R.drawable.avtaar3,\r\n        R.drawable.avtaar4,\r\n        R.drawable.avtaar5,\r\n        R.drawable.avtaar6,\r\n        R.drawable.avtaar7\r\n    )\r\n\r\n    override fun onCreate(savedInstanceState: Bundle?) {\r\n        super.onCreate(savedInstanceState)\r\n\r\n        datastore = Datastore(requireContext())\r\n        lifecycleScope.launch {\r\n            binding.userName.text = datastore.getUserDetails(Datastore.NAME_KEY).toString()\r\n            binding.totalScore.text = datastore.getUserDetails(Datastore.SCORE).toString()\r\n        }\r\n        getLeaderboard()\r\n\r\n    }\r\n\r\n    private fun getLeaderboard() {\r\n        val api = ServiceBuilder.init()\r\n        api.getLeaderboard().enqueue(object : Callback<List<LeaderboardUser>?> {\r\n            override fun onResponse(\r\n                call: Call<List<LeaderboardUser>?>,\r\n                response: Response<List<LeaderboardUser>?>\r\n            ) {\r\n                when {\r\n                    response.isSuccessful -> {\r\n                        orderList(response.body())\r\n                    }\r\n                    else -> {\r\n                        Toast.makeText(\r\n                            requireContext(),\r\n                            response.code().toString(),\r\n                            Toast.LENGTH_LONG\r\n                        ).show()\r\n                    }\r\n                }\r\n            }\r\n\r\n            override fun onFailure(call: Call<List<LeaderboardUser>?>, t: Throwable) {\r\n                TODO(\"Not yet implemented\")\r\n            }\r\n        })\r\n    }\r\n\r\n    private fun orderList(body: List<LeaderboardUser>?) {\r\n        var i = 0;\r\n        body?.sortedBy { it.score }\r\n        body?.forEachIndexed { index, it ->\r\n            it.rank = index + 1\r\n            it.image = resources.getDrawable(images[i])\r\n            i++\r\n            lifecycleScope.launch {\r\n                if (it.name == datastore.getUserDetails(Datastore.NAME_KEY)) {\r\n                    datastore.saveToDatastore(Datastore.RANK, it.rank.toString(), requireContext())\r\n                }\r\n            }\r\n        }\r\n\r\n        if (body != null) {\r\n            leaderboardAdapter.updateLeaderboard(body)\r\n        }\r\n        binding.leaderboardRv.adapter = leaderboardAdapter\r\n\r\n    }\r\n\r\n    override fun onCreateView(\r\n        inflater: LayoutInflater, container: ViewGroup?,\r\n        savedInstanceState: Bundle?\r\n    ): View? {\r\n        binding =\r\n            DataBindingUtil.inflate(layoutInflater, R.layout.fragment_achievement, container, false)\r\n\r\n\r\n        return binding.root\r\n    }\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/irecycle/fragment/dash/AchievementFragment.kt b/app/src/main/java/com/example/irecycle/fragment/dash/AchievementFragment.kt
+--- a/app/src/main/java/com/example/irecycle/fragment/dash/AchievementFragment.kt	(revision b5ecdd91e4f220d9cbf257d2ee88b936f3111a4a)
++++ b/app/src/main/java/com/example/irecycle/fragment/dash/AchievementFragment.kt	(date 1655604244000)
+@@ -38,12 +38,7 @@
+     override fun onCreate(savedInstanceState: Bundle?) {
+         super.onCreate(savedInstanceState)
+ 
+-        datastore = Datastore(requireContext())
+-        lifecycleScope.launch {
+-            binding.userName.text = datastore.getUserDetails(Datastore.NAME_KEY).toString()
+-            binding.totalScore.text = datastore.getUserDetails(Datastore.SCORE).toString()
+-        }
+-        getLeaderboard()
++
+ 
+     }
+ 
+@@ -102,6 +97,12 @@
+         binding =
+             DataBindingUtil.inflate(layoutInflater, R.layout.fragment_achievement, container, false)
+ 
++        datastore = Datastore(requireContext())
++        lifecycleScope.launch {
++            binding.userName.text = datastore.getUserDetails(Datastore.NAME_KEY).toString()
++            binding.totalScore.text = datastore.getUserDetails(Datastore.SCORE).toString()
++        }
++        getLeaderboard()
+ 
+         return binding.root
+     }
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>plugins {\r\n    id 'com.android.application'\r\n    id 'org.jetbrains.kotlin.android'\r\n    id 'com.google.gms.google-services'\r\n}\r\n\r\nandroid {\r\n    compileSdk 32\r\n\r\n    defaultConfig {\r\n        applicationId \"com.example.irecycle\"\r\n        minSdk 21\r\n        targetSdk 32\r\n        versionCode 1\r\n        versionName \"1.0\"\r\n\r\n        testInstrumentationRunner \"androidx.test.runner.AndroidJUnitRunner\"\r\n    }\r\n\r\n    buildTypes {\r\n        release {\r\n            minifyEnabled false\r\n            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'\r\n        }\r\n    }\r\n    compileOptions {\r\n        sourceCompatibility JavaVersion.VERSION_1_8\r\n        targetCompatibility JavaVersion.VERSION_1_8\r\n    }\r\n    kotlinOptions {\r\n        jvmTarget = '1.8'\r\n    }\r\n    buildFeatures {\r\n        viewBinding = true\r\n    }\r\n    dataBinding\r\n            {\r\n                enabled true\r\n            }\r\n}\r\n\r\ndependencies {\r\n\r\n    implementation 'androidx.core:core-ktx:1.8.0'\r\n    implementation 'androidx.appcompat:appcompat:1.4.2'\r\n    implementation 'com.google.android.material:material:1.6.1'\r\n    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'\r\n    implementation 'com.google.firebase:firebase-auth-ktx:21.0.5'\r\n    implementation 'com.google.firebase:firebase-storage-ktx:20.0.1'\r\n    testImplementation 'junit:junit:4.13.2'\r\n    androidTestImplementation 'androidx.test.ext:junit:1.1.3'\r\n    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'\r\n    //navigation\r\n    implementation 'androidx.navigation:navigation-fragment-ktx:2.4.2'\r\n    implementation 'androidx.navigation:navigation-ui-ktx:2.4.2'\r\n    // Preferences DataStore\r\n    implementation(\"androidx.datastore:datastore-preferences:1.0.0\")\r\n    implementation(\"androidx.datastore:datastore:1.0.0\")\r\n    //PinCode\r\n    implementation 'io.github.chaosleung:pinview:1.4.4'\r\n    // Import the Firebase BoM\r\n    implementation platform('com.google.firebase:firebase-bom:30.1.0')\r\n    // gson\r\n    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'\r\n    //Retrofit\r\n    implementation 'com.squareup.retrofit2:retrofit:2.9.0'\r\n    def lottieVersion = \"5.0.3\"\r\n    implementation \"com.airbnb.android:lottie:$lottieVersion\"\r\n    implementation 'com.github.denzcoskun:ImageSlideshow:0.1.0'\r\n    //coilImageLibrary\r\n    implementation(\"io.coil-kt:coil:1.4.0\")\r\n    //CustomObjectDetection\r\n    implementation 'com.google.mlkit:object-detection-custom:17.0.0'\r\n    //Image Labelling\r\n    implementation 'com.google.mlkit:image-labeling:17.0.7'\r\n    //ScratchCard\r\n    implementation \"com.github.cooltechworks:ScratchView:v1.1\"\r\n    implementation 'com.google.firebase:firebase-storage-ktx:20.0.1'\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/build.gradle b/app/build.gradle
+--- a/app/build.gradle	(revision b5ecdd91e4f220d9cbf257d2ee88b936f3111a4a)
++++ b/app/build.gradle	(date 1655602916000)
+@@ -64,11 +64,11 @@
+     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+     //Retrofit
+     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+-    def lottieVersion = "5.0.3"
++    def lottieVersion = '5.2.0'
+     implementation "com.airbnb.android:lottie:$lottieVersion"
+     implementation 'com.github.denzcoskun:ImageSlideshow:0.1.0'
+     //coilImageLibrary
+-    implementation("io.coil-kt:coil:1.4.0")
++    implementation('io.coil-kt:coil:2.1.0')
+     //CustomObjectDetection
+     implementation 'com.google.mlkit:object-detection-custom:17.0.0'
+     //Image Labelling

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.cooltechworks:ScratchView:v1.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8946a2faa2980e2cf585f7780a0df28d/transformed/jetified-ScratchView-v1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8946a2faa2980e2cf585f7780a0df28d/transformed/jetified-ScratchView-v1.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8946a2faa2980e2cf585f7780a0df28d/transformed/jetified-ScratchView-v1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3dedee092ac0dc13a223db8f17a256d4/transformed/jetified-ScratchView-v1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3dedee092ac0dc13a223db8f17a256d4/transformed/jetified-ScratchView-v1.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3dedee092ac0dc13a223db8f17a256d4/transformed/jetified-ScratchView-v1.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.cooltechworks/ScratchView/v1.1/cfb642e75969ee5b28bae96448e8da4b660885e2/ScratchView-v1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
