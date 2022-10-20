@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget APP</title>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">Budget APP</h2>
+        <div class="error budget__amout">Value Cannot Be Empty or Negative</div>
+        <section class="top">
+            <div class="budget">
+                <p class="budget__title">Please enter your budget</p>
+                <input type="number" class="budget__input">
+                <button class="budget__btn">Calculate</button>
+            </div>
+            <div class="info">
+                <div class="info__budget">
+                    <p class="info__title">Budget</p>
+                    <i class="fas fa-money-bill-alt"></i>
+                    <p class="info__value info--green budget__value">0 $</p>
+                </div>
+                <div class="info__expenses">
+                    <p class="info__title">expenses</p>
+                    <i class="far fa-credit-card"></i>
+                    <p class="info__value info--red expense__value">0 $</p>
+                </div>
+                <div class="info__balance">
+                    <p class="info__title">balance</p>
+                    <i class="fas fa-dollar-sign"></i>
+                    <p class="info__value info--green balance__value">0 $</p>
+                </div>
+            </div>
+        </section>
+        <div class="error expense__info">Value Cannot Be Empty or Negative</div>
+        <section class="bottom">
+            <div class="expense">
+                <p class="expense__title">Please enter your expense</p>
+                <input type="text" class="expense__input expense__name">
+                <p class="expense__title">Please enter expense amout</p>
+                <input type="number" class="expense__input expense__amout">
+                <button class="expense__btn">Add Expense</button>
+            </div>
+            <div class="list">
+                <div class="list__header">
+                    <h4>Expense Title</h4>
+                    <h4>Expense Value </h4>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
