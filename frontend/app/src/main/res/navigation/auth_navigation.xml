@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_navigation"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.recycle.ui.FirstFragment"
+        android:label="FirstFragment" />
+    <fragment
+        android:id="@+id/logIn"
+        android:name="com.example.recycle.ui.LogIn"
+        android:label="LogIn" />
+    <fragment
+        android:id="@+id/otpFragment"
+        android:name="com.example.recycle.ui.OtpFragment"
+        android:label="OtpFragment" />
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.recycle.ui.SignUp"
+        android:label="SignUp" />
+</navigation>

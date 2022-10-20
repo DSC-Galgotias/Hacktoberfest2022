@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "852774893959",
+    "project_id": "irecycle-ba09a",
+    "storage_bucket": "irecycle-ba09a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852774893959:android:1c6a7ad9cff4133afc7b22",
+        "android_client_info": {
+          "package_name": "com.example.irecycle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852774893959-nqg4hea3t7bbclc85vif2vve80moruoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlgBVjF9vptzeoiDpVxaILhhQKkn95_4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852774893959-nqg4hea3t7bbclc85vif2vve80moruoi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
