@@ -1,0 +1,17 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "lib"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\Sandeep\\OneDrive\\Desktop\\Library Management System\\h2.jar",
+            "c:\\Users\\Sandeep\\OneDrive\\Desktop\\Library Management System\\mysql-connector-java-8.0.26\\mysql-connector-java-8.0.26.jar"
+        ],
+        "exclude": [
+            "c:\\Program Files (x86)\\H2\\bin\\h2-1.4.200.jar"
+        ]
+    }
+}
