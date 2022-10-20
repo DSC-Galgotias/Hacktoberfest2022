@@ -97,3 +97,31 @@ nav ul li a:hover{
 .container{
     min-height: calc(100vh - 58px - 12vh);
 }
+
+.footer-title {
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-title::after {
+    content: " ";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,1);
+    animation: footer-anim 2s linear infinite;
+}
+
+@keyframes footer-anim {
+    0% {
+        left: -10px;
+    }
+    50% {
+        left: 100%;
+    }
+    100% {
+        left: -10px;
+    }
+}
