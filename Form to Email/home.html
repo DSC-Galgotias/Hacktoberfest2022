@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <title> Contact Form to Email Using JavaScript </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <form onsubmit="sendEmail(); reset(); return false">
+        <h3> REGISTER TO RECEIVE UPDATES </h3>
+        <input type="text" id="name" placeholder="Enter your Name" required>
+        <input type="email" id="email" placeholder="Enter your Email" required>
+        <input type="tel" id="phone" placeholder="Enter your Contact Number" required>
+        <textarea name="message" id="message" rows="4" placeholder="Anything you want to Enquire about?"></textarea>
+        <button type="submit" name="submit"> SEND </button>
+      </form>
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail() {
+        Email.send({
+            Host : "smtp.gmail.com",
+            Username : "username", //Enter your Email ID (SMTPJS Registered)
+            Password : "password", // Enter your GMAIL Password
+            To : 'Email ID', // Enter Email ID where you want to receive the responses
+            From : document.getElementById("email").value,
+            Subject : "New Contact Form Enquiry",
+            Body : "Name: " + document.getElementById("name").value
+            + "<br> Email: " + document.getElementById("email").value
+            + "<br> Contact No.: " + document.getElementById("phone").value
+            + "<br> Message: " + document.getElementById("message").value
+        }).then(
+          message => alert(message)
+        );
+      }
+    </script>
+  </body>
+</html>
